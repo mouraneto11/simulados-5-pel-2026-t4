@@ -606,30 +606,249 @@
     ]
   },
   {
-    "id": "simulado_teste_2",
-    "title": "SIMULADO TESTE 2",
+    "id": "simulado_lri_amapa_10",
+    "title": "Simulado LRI - Estatuto e RDPM Amapá",
     "questions": [
       {
         "id": 1,
-        "text": "Qual é a principal função do extintor de CO2?",
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que NÃO corresponde a uma atribuição do CBMAP:",
         "options": [
-          "Combater princípios de incêndio em líquidos inflamáveis e equipamentos elétricos energizados.",
-          "Apagar incêndios em metais combustíveis.",
-          "Resfriar grandes superfícies de madeira.",
-          "Substituir a água em incêndios florestais.",
-          "Nenhuma das alternativas."
+          "Coordenação da Defesa Civil",
+          "Busca e Salvamento",
+          "Serviços de prevenção e extinção de incêndio",
+          "Socorro de emergência",
+          "Policiamento ostensivo fardado"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 2,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que NÃO corresponde a um requisito verificado durante o Estágio Probatório do cargo inicial da carreira da Praça:",
+        "options": [
+          "aptidão para a carreira militar",
+          "conduta ilibada somente na vida pública",
+          "interesse e dedicação ao serviço",
+          "assiduidade",
+          "disciplina"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 3,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que corresponde CORRETAMENTE aos círculos hierárquicos:",
+        "options": [
+          "Oficiais Superiores: General, Tenente-Coronel e Major",
+          "Oficiais Intermediários: Capitão e 1º Tenente",
+          "Praça Especial: 2º Tenente, Aspirante a Oficial e o aluno do Curso de Formação de Oficiais",
+          "Subtenentes e Sargentos: Subtenente, 1º Sargento, 2º Sargento, 3º Sargento e Aluno do Curso de Formação de Sargento",
+          "Cabos, Soldados e Recruta: Cabo, Aluno do Curso de Formação de Cabo, Soldado e Aluno do Curso de Formação de Soldado e Recruta."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que corresponde CORRETAMENTE ao dever do Militar Estadual:",
+        "options": [
+          "O culto aos símbolos mundiais;",
+          "A improbidade e a deslealdade em todas as circunstâncias;",
+          "a disciplina e o respeito à hierarquia;",
+          "a parcial observância da ética militar;",
+          "ser obediente às ordens de seus subordinados hierárquicos."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que NÃO corresponde a um direito do Militar Estadual:",
+        "options": [
+          "Percepção de remuneração na atividade e de proventos ao ser transferido para a inatividade",
+          "a promoção",
+          "a aposentadoria, na forma da legislação civil",
+          "as férias anuais remuneradas acrescidas de, no mínimo, 1/3 (um terço) a mais do que o salário normal",
+          "adicional natalino correspondente a 1/12 (um doze avos) da remuneração a que o militar fizer jus no mês de dezembro, por mês de serviço, no respectivo ano (décimo terceiro)."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que corresponde CORRETAMENTE as datas anuais de promoções, por antiguidade ou merecimento, no Corpo de Bombeiros Militar:",
+        "options": [
+          "19 de março, 02 de julho e 15 de novembro",
+          "1º de abril, 10 de agosto e 24 de dezembro",
+          "03 de janeiro, 25 de setembro e 20 de setembro",
+          "14 de fevereiro, 11 de agosto e 22 de outubro",
+          "18 de janeiro, 05 de julho e 14 de setembro."
         ],
         "correctAnswer": 0
       },
       {
-        "id": 2,
-        "text": "No atendimento pré-hospitalar, o que significa a sigla XABCDE?",
+        "id": 7,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que NÃO corresponde a uma Licença:",
         "options": [
-          "Uma marca de viatura.",
-          "Um protocolo de prioridades na avaliação inicial do trauma.",
-          "Um código de rádio para solicitar apoio.",
-          "Uma técnica de reanimação cardiopulmonar.",
-          "Um tipo de maca rígida."
+          "Especial",
+          "Maternidade",
+          "Adotante",
+          "Doação voluntária de sangue",
+          "Paternidade"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 8,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa INCORRETA quanto aos afastamentos total e temporários e seus prazos.",
+        "options": [
+          "Férias 60 (sessenta) dias",
+          "luto: 08 (oito) dias",
+          "núpcias: 08 (oito) dias",
+          "doação voluntária de sangue: 01 (um) dia",
+          "trânsito: até 20 (vinte) dias"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 9,
+        "text": "Considerando as disposições do Estatuto dos Militares do Estado do Amapá, marque a alternativa que NÃO corresponde a um dependente do militar:",
+        "options": [
+          "cônjuge ou companheira (o)",
+          "filhos menores de 21 (vinte e um) anos, inválidos ou interditos",
+          "Namorada (o) ou convivente",
+          "filho estudante menor de 24 (vinte e quatro) anos, quando universitário, desde que não receba remuneração",
+          "mãe ou pai que comprovem dependência econômica."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 101,
+        "text": "Julgue a assertiva em V ou F: Os proventos da inatividade serão revistos, na mesma proporção e na mesma data, sempre que se modificar a remuneração dos militares estaduais em atividade (PARIDADE).",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 102,
+        "text": "Julgue a assertiva em V ou F: A Disciplina é a ordenação da autoridade, em níveis diferentes dentro da estrutura das Instituições Militares, por postos ou graduações.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 103,
+        "text": "Julgue a assertiva em V ou F: A passagem do militar à situação de reformado será sempre ex-officio.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 104,
+        "text": "Julgue a assertiva em V ou F: A Praça sem estabilidade assegurada, presumivelmente incapaz de permanecer como militar da ativa, será submetida a Conselho de Justificação, em que lhe seja assegurada a ampla defesa e o contraditório.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 105,
+        "text": "Julgue a assertiva em V ou F: É proibido ao militar o uso de uniformes em reuniões, propagandas e qualquer outra manifestação de caráter político partidário ou de caráter comercial;",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 11,
+        "text": "Julgue a assertiva em V ou F: Durante o julgamento da transgressão disciplinar, o RDPM prevê a possibilidade de serem levantadas causas de justificação e circunstâncias atenuantes ou agravantes. Como agravante pode-se citar a reincidência no cometimento da transgressão.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 12,
+        "text": "Julgue a assertiva em V ou F: De acordo com o RDPM, as transgressões disciplinares são classificadas como leves, médias ou graves; sendo que as transgressões de natureza médias são aquelas que não chegando a constituir crime, constitua a mesma ato que afete o sentimento de dever, a honra pessoal, o pundonor Policial Militar ou o decoro de classe.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 13,
+        "text": "Julgue a assertiva em V ou F: As punições disciplinares dispostas no Art. 23 do RDPM estão dispostas na seguinte ordem de gravidade: repreensão, advertência, detenção, prisão e licenciamento e exclusão a bem da disciplina.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 14,
+        "text": "Julgue a assertiva em V ou F: Conforme o RDPM transgressão disciplinar é qualquer violação dos princípios da ética, dos deveres e das obrigações policiais-militares, bem como qualquer afronta ao ordenamento jurídico militar.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 15,
+        "text": "Julgue a assertiva em V ou F: Durante o serviço diário no quartel do 8º Grupamento Bombeiro Militar, o CB LARANJA foi surpreendido pelo 3º SGT DA LUA fazendo uso de bebida alcoólica nas dependências do Grupamento, sendo assim enquadrado no item 109 do RDPM. Desta forma, podemos afirmar que o 3º SGT DA LUA fará uso da sua autoridade para aplicar a punição cabível em conformidade com o Regulamento Disciplinar da Polícia Militar.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 16,
+        "text": "Julgue a assertiva em V ou F: Para efeito de classificação, reclassificação e melhoria de comportamento, quatro repreensões equivalem a uma prisão.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 17,
+        "text": "Julgue a assertiva em V ou F: Durante o expediente ordinário dos militares do QCG, o CAPITÃO MORFEU, chefe do Centro de Logística, ao percorrer os corredores daquele quartel, surpreendeu o 2º SGT MOREIRA, pertencente ao 1º Grupamento, fumando em local proibido pelo Comandante Geral, infringindo assim o item 59 do RDPM. Sendo assim, o CAPITÃO MORFEU fará uso de sua competência legal conferida pelo RDPM para aplicar uma punição disciplinar ao 2º SGT MOREIRA.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 18,
+        "text": "Julgue a assertiva em V ou F: O RDPM prevê no Art. 56 os recursos disciplinares. Dentre eles pode-se inferir que o recurso de 'queixa' é interposto exclusivamente por um militar que julgue que seu subordinado está sendo prejudicado, ofendido ou injustiçado.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 19,
+        "text": "Julgue a assertiva em V ou F: O Cancelamento de punição previsto no Art. 61 do RDPM se trata de uma modificação da punição imposta a um militar. Por meio deste instituto a punição se torna sem efeito em virtude de comprovada injustiça ou ilegalidade.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 20,
+        "text": "Julgue a assertiva em V ou F: Em 1º de janeiro de 2024, o MAJ SONECA foi transferido para a Reserva Remunerada ex-officio, conforme dispõe a legislação em vigor. Sendo assim, podemos afirmar que, conforme o Art. 8º do Regulamento Disciplinar da Policia Militar aplicável ao CBMAP, o MAJ SONECA não estará mais sujeito à aplicação deste regulamento, já que o mesmo foi transferido para a inatividade.",
+        "options": [
+          "Verdadeiro",
+          "Falso"
         ],
         "correctAnswer": 1
       }
