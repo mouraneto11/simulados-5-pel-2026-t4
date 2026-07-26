@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Simulados CFSD 2026.2 - CBMAP</title>
+    
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#020617">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Install Banner -->
+    <div id="installBanner" class="install-banner hidden">
+        <div class="install-info">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            <span>Instalar Aplicativo (Modo Offline)</span>
+        </div>
+        <button id="installBtn" class="btn btn-primary">Instalar</button>
+    </div>
+
+    <!-- Header -->
+    <header class="app-header">
+        <div class="logo">
+            <!-- SVG placeholder for Firefighter/Military -->
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#002bb8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <h1>CFSD 2026.2 <span class="highlight">CBMAP</span></h1>
+        </div>
+        <div class="timer-container" id="timerContainer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span id="timer">30:00</span>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Start Screen -->
+        <section id="startScreen" class="glass-card active-screen">
+            <h2 id="simuladoTitle" class="title-rajdhani">SELECIONE UM SIMULADO</h2>
+            <p>5º Pelotão - CFSD 2026.2</p>
+            
+            <div class="mt-4">
+                <select id="simuladoSelect" class="form-select w-full">
+                    <option value="">Carregando simulados...</option>
+                </select>
+            </div>
+
+            <div class="info-list">
+                <div class="info-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    <span id="questionCountInfo">Carregando...</span>
+                </div>
+                <div class="info-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <span>Tempo: 30 minutos</span>
+                </div>
+            </div>
+            <button id="startBtn" class="btn btn-primary btn-large w-full mt-4" disabled>INICIAR SIMULADO</button>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quizScreen" class="hidden-screen">
+            <div class="progress-bar-container">
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
+            
+            <div id="questionContainer" class="glass-card mt-4">
+                <div class="question-header">
+                    <span id="questionNumber" class="q-number">Questão 1</span>
+                </div>
+                <h3 id="questionText" class="q-text">Carregando questão...</h3>
+                <div id="optionsContainer" class="options-grid">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+            
+            <div class="action-buttons mt-4">
+                <button id="prevBtn" class="btn btn-secondary hidden">Anterior</button>
+                <button id="nextBtn" class="btn btn-primary ml-auto">Próxima</button>
+                <button id="finishBtn" class="btn btn-danger ml-auto hidden">Finalizar</button>
+            </div>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="resultScreen" class="glass-card hidden-screen text-center">
+            <h2 class="title-rajdhani">RESULTADO FINAL</h2>
+            
+            <div class="score-circle">
+                <span id="finalScoreText" class="score-number">0.0</span>
+                <span class="score-label">/ 10</span>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box success">
+                    <span class="stat-value" id="correctCount">0</span>
+                    <span class="stat-label">Acertos</span>
+                </div>
+                <div class="stat-box error">
+                    <span class="stat-value" id="incorrectCount">0</span>
+                    <span class="stat-label">Erros</span>
+                </div>
+            </div>
+
+            <button id="restartBtn" class="btn btn-primary btn-large w-full mt-4">NOVO SIMULADO</button>
+        </section>
+    </main>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
