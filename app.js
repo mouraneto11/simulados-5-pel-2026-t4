@@ -187,8 +187,14 @@ function renderQuestion() {
     q.options.forEach((opt, index) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
-        if (userAnswers[currentQuestionIndex] === index) {
-            btn.classList.add('selected');
+        
+        if (userAnswers[currentQuestionIndex] !== null) {
+            btn.disabled = true;
+            if (index === q.correctAnswer) {
+                btn.classList.add('correct-ans');
+            } else if (index === userAnswers[currentQuestionIndex]) {
+                btn.classList.add('wrong-ans');
+            }
         }
         
         btn.innerHTML = `
@@ -217,6 +223,7 @@ function renderQuestion() {
 }
 
 function selectOption(index) {
+    if (userAnswers[currentQuestionIndex] !== null) return;
     userAnswers[currentQuestionIndex] = index;
     renderQuestion(); // Re-renderiza para mostrar visualmente a seleção
 }
@@ -267,6 +274,31 @@ function calculateScore() {
     correctCountEl.textContent = correct;
     incorrectCountEl.textContent = incorrect;
     
+    // Summary
+    const summaryContainer = document.getElementById('summaryContainer');
+    summaryContainer.innerHTML = '';
+    summaryContainer.classList.remove('hidden');
+
+    questions.forEach((q, index) => {
+        const userAns = userAnswers[index];
+        const isCorrect = userAns === q.correctAnswer;
+        
+        const itemDiv = document.createElement('div');
+        itemDiv.className = `summary-item ${isCorrect ? 'correct-item' : 'wrong-item'}`;
+        
+        let html = `<div class="summary-q">${index + 1}. ${q.text}</div>`;
+        
+        if (userAns !== null && !isCorrect) {
+            html += `<div class="summary-a user-wrong">Sua resposta: ${q.options[userAns]}</div>`;
+        } else if (userAns === null) {
+            html += `<div class="summary-a user-wrong">Não respondida</div>`;
+        }
+        html += `<div class="summary-a correct-text">Gabarito: ${q.options[q.correctAnswer]}</div>`;
+        
+        itemDiv.innerHTML = html;
+        summaryContainer.appendChild(itemDiv);
+    });
+    
     // Ajuste visual do placar baseado na nota
     const scoreCircle = document.querySelector('.score-circle');
     if (score10 >= 7.0) {
@@ -290,6 +322,8 @@ function resetQuiz() {
     
     timerElement.textContent = "30:00";
     userAnswers = [];
+    document.getElementById('summaryContainer').classList.add('hidden');
+    document.getElementById('summaryContainer').innerHTML = '';
 }
 
 // Inicia a aplicação
