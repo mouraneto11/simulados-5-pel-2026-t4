@@ -1,11 +1,13 @@
-const CACHE_NAME = 'cfsd-simulados-v1';
+const CACHE_NAME = 'cfsd-simulados-v2';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
     './style.css',
     './app.js',
     './manifest.json',
-    './simulados.json'
+    './simulados.json',
+    './icon-192.png',
+    './icon-512.png'
 ];
 
 // Install Event - Armazena em cache todos os arquivos necessários
