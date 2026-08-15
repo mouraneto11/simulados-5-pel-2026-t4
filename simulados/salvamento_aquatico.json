@@ -1,0 +1,606 @@
+{
+  "id": "salvamento_aquatico",
+  "title": "SIMULADO DE SALVAMENTO AQUÁTICO",
+  "questions": [
+    {
+      "id": 1,
+      "text": "O conhecimento estatístico e epidemiológico dos acidentes por imersão é fundamental para a atuação estratégica do Corpo de Bombeiros Militar. Analisando o panorama do afogamento no Brasil segundo as diretrizes da SOBRASA, assinale a afirmativa CORRETA:",
+      "options": [
+        "A incidência anual de óbitos indica que o fenômeno acomete de forma homogênea ambos os gêneros, registrando taxas idênticas entre homens e mulheres.",
+        "Cerca de 70% das ocorrências fatais concentram -se em ambientes de águas naturais abafadas ou internas, a exemplo de rios, lagos e represas.",
+        "As praias marítimas do litoral sul são responsáveis por mais de 90% de todos os óbitos registrados por submersão no território nacional.",
+        "O perfil etário predominante de óbitos restringe -se exclusivamente a idosos acima de 70 anos com comorbidades cardíacas.",
+        "As estatísticas comprovam que a proporção de mortes diárias no país não ultrapassa a marca de dois óbitos a cada 24 horas."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "text": "O guarda -vidas militar atua preventivamente e operacionalmente em diversas frentes para garantir a segurança dos banhistas. Sobre a área de atuação voltada à Vigilância, assinale a alternativa que descreve corretamente sua finalidade principal:",
+      "options": [
+        "Aplicar penalidades pecuniárias e multas de trânsito náutico aos condutores de embarcações de recreio próximas à faixa de areia.",
+        "Executar o transporte hospitalar de urgência com uso de oxigênio em alta concentração para unidades de terapia intensiva.",
+        "Identificar ativamente situações de potencial risco e monitorar o comportamento dos banhistas no espelho d'água.",
+        "Confeccionar materiais educativos e cartilhas impressas para distribuição nas escolas da rede pública estadual.",
+        "Realizar a imobilização rígida da coluna cervical de forma preventiva em todos os banhistas que entram na água."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "text": "Uma pessoa é retirada do meio aquático apresentando tosse persistente e secreção espumosa leve na cavidade oral, com ausculta pulmonar evidenciando estertores nas bases pulmonares. Consciente e responsiva, relata dispneia leve. De acordo com a tabela de c lassificação de gravidade da SOBRASA, o caso tipifica um afogamento de:",
+      "options": [
+        "Grau 1",
+        "Grau 2",
+        "Grau 3",
+        "Grau 4",
+        "Grau 5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "text": "Durante uma ocorrência de salvamento, um banhista é retirado da água apresentando quadro clínico de exaustão, porém sem exibir nenhum sinal de aspiração de líquido (ausência de tosse, ausência de espuma na boca ou nariz, com ausculta pulmonar normal). Mantém -se consciente e orientado. Segundo os protocolos do CBMAP, a conduta correta para este atendimento é:",
+      "options": [
+        "Administrar oxigênio por máscara a 15 litros/min e encaminhar com urgência para o CTI.",
+        "Avaliar clinicamente o banhista e realizar a liberação no próprio local do afogamento.",
+        "Iniciar imediatamente ciclos de RCP em razão da exaustão muscular sistêmica.",
+        "Posicionar a vítima em Posição Lateral de Segurança sob o lado direito e acionar o IML.",
+        "Manter em observação hospitalar obrigatória por 48 horas com infusão venosa de soro."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "text": "O processo de submersão de uma vítima evolui por etapas comportamentais e clínicas distintas até o desfecho em parada cardíaca. Assinale a alternativa que caracteriza corretamente a fase de Submersão Inicial:",
+      "options": [
+        "Perda imediata de todos os reflexos autônomos e rigidez muscular generalizada precoce.",
+        "Aspiração de líquido, perda progressiva da capacidade de flutuar e afundamento.",
+        "Movimentos corporais altamente coordenados e racionais visando alcançar a margem nadando.",
+        "Ausência total de atividade cerebral acompanhada de cianose ungueal isolada.",
+        "Recuperação espontânea da flutuação positiva devido à expansão gástrica por ar deglutido."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "text": "A hipóxia tecidual provocada pela interrupção das trocas gasosas é o evento central na fisiopatologia do afogamento. Sobre esse processo, é correto afirmar que:",
+      "options": [
+        "O cérebro humano resiste por até seis horas sem oxigênio durante a imersão sem sofrer lesões celulares.",
+        "A entrada de água nas vias aéreas obstrui a difusão do oxigênio, gerando hipoxemia que conduz à inconsciência e à falência respiratória/cardíaca.",
+        "O sangue arterial do afogado torna -se hiperoxigenado nos primeiros minutos devido à absorção de oxigênio contido na água doce.",
+        "A parada cardíaca no afogamento sempre precede a parada respiratória, sendo um evento primário desvinculado da falta de ar.",
+        "A presença de líquido nos pulmões estimula a produção endógena de adrenalina, normalizando os batimentos cardíacos."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "text": "Quanto à etiologia, o afogamento classificado como Secundário difere do afogamento primário por apresentar uma característica específica. Assinale a alternativa que a descreve:",
+      "options": [
+        "Ocorre exclusivamente em piscinas artificiais de água tratada com cloro.",
+        "É desencadeado por uma condição médica, patológica ou mal súbito prévio que impede a vítima de permanecer na superfície.",
+        "Caracteriza -se por envolver apenas a ingestão gástrica de líquido, sem nenhuma repercussão pulmonar.",
+        "Acomete apenas nadadores profissionais durante competições de alto rendimento esportivo.",
+        "Dispensa qualquer tipo de atendimento pré -hospitalar devido à sua baixa gravidade clínica."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "text": "A prevenção é considerada pela SOBRASA a ferramenta mais poderosa para combater a mortalidade por submersão. Sobre os conceitos de Prevenção Reativa, assinale a alternativa correta:",
+      "options": [
+        "Refere -se à construção de barreiras físicas e cercas ao redor de espelhos d'água e piscinas públicas.",
+        "Abrange ações voltadas ao comportamento humano realizadas durante a atividade aquática, como advertências verbais e correção de condutas de risco.",
+        "Consiste na elaboração de leis federais de segurança de balneários sem intervenção direta do guarda -vidas.",
+        "É a fiscalização estrutural de postos de salvamento antes do início da temporada de veraneio.",
+        "Trata -se do atendimento médico hospitalar prestado após a ocorrência do afogamento grau 4."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "text": "O mito de que \"quem sabe nadar não se afoga\" é combatido ativamente nos cursos de formação de bombeiros. A realidade operacional demonstra que:",
+      "options": [
+        "Nadadores experientes estão imunes a qualquer tipo de corrente de retorno ou exaustão em mar aberto.",
+        "O excesso de confiança e a desconsideração dos limites pessoais e dos perigos do meio aquático expõem grandes nadadores ao risco fatal.",
+        "A capacidade pulmonar de atletas profissionais impede a ocorrência de hipóxia em casos de submersão prolongada.",
+        "A habilidade de natação garante flutuação automática mesmo em quadros de exaustão extrema ou inconsciência.",
+        "Nenhuma vítima de afogamento na história recente sabia executar nado sincronizado ou crawl."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "text": "Durante a aplicação do Algoritmo de Ressuscitação Dentro da Água (IWR), um guarda -vidas socorre um banhista inconsciente e sem respiração em águas profundas. Utilizando equipamento de flutuação adequado no tórax superior, o socorrista executa as insuflaçõ es na água. Qual é o procedimento operacional correto caso a vítima não recupere a respiração após o teto máximo de ventilações aquáticas permitidas?",
+      "options": [
+        "Iniciar compressões torácicas vigorosas com a vítima ainda flutuando na água funda.",
+        "Abandonar a vítima na água e nadar rapidamente para pedir apoio de uma embarcação motorizada.",
+        "Realizar o reboque imediato para a área seca sem novas ventilações no percurso, iniciando prontamente a RCP completa.",
+        "Aplicar a manobra de Heimlich na água para drenar o líquido gástrico acumulado.",
+        "Aguardar na mesma posição até que a respiração retorne espontaneamente por reflexo térmico."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "text": "O posicionamento correto do afogado na areia é vital para o sucesso do atendimento inicial. Para uma vítima que foi resgatada consciente, a orientação doutrinária estabelece que ela seja mantida em:",
+      "options": [
+        "Posição Lateral de Segurança sobre o lado esquerdo.",
+        "Decúbito dorsal horizontal estrito, sem inclinação.",
+        "Decúbito ventral com a face voltada diretamente para o solo.",
+        "Decúbito dorsal com a cabeceira elevada a 180° / 30°, paralela ao espelho d'água.",
+        "Posição sentada com flexão anterior total do tronco sobre os joelhos."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 12,
+      "text": "Os passos iniciais do Suporte Básico de Vida em afogamentos seguem uma cadeia lógica e sequencial rigorosa. Qual das alternativas abaixo apresenta o primeiro passo obrigatório que o guarda -vidas deve executar antes de realizar qualquer contato com a vítim a?",
+      "options": [
+        "Iniciar imediatamente as 5 ventilações de resgate na areia.",
+        "Avaliar a segurança da cena e utilizar os Equipamentos de Proteção Individual (EPI) disponíveis.",
+        "Verificar a presença de pulso arterial carotídeo por 10 segundos.",
+        "Posicionar a vítima em decúbito lateral direito.",
+        "Realizar a checagem da pressão arterial com esfigmomanômetro."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "text": "O Atendimento Pré -Hospitalar (APH) ao afogado possui metas específicas estabelecidas pelos manuais de salvamento. Assinale a alternativa que NÃO condiz com os objetivos centrais do APH nesta especialidade:",
+      "options": [
+        "Manter e restaurar a oxigenação tecidual da vítima.",
+        "Identificar com precisão o grau de gravidade do afogamento.",
+        "Realizar manobras sistemáticas de drenagem de água dos pulmões por compressão torácica.",
+        "Aplicar o tratamento adequado e específico para cada faixa de gravidade.",
+        "Garantir o transporte seguro e monitorado para a unidade de referência hospitalar."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "text": "Em um atendimento de Parada Cardiorrespiratória (Grau 6) em terra firme, uma guarnição com dois guarda -vidas realiza a reanimação de um adulto jovem. De acordo com o protocolo técnico do CBMAP, a proporção correta entre compressões e ventilações para dois socorristas é de:",
+      "options": [
+        "30 compressões para 2 ventilações.",
+        "15 compressões para 2 ventilações.",
+        "5 compressões para 1 ventilação.",
+        "100 compressões contínuas para 5 ventilações.",
+        "30 compressões para 5 ventilações."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "text": "Três fatos fisiológicos principais explicam o sucesso surpreendente na reanimação de vítimas de afogamento submersas por períodos inferiores a uma hora. Entre eles, destaca -se o Reflexo de Mergulho. Sobre esse reflexo, é correto afirmar que ele provoca:",
+      "options": [
+        "Aceleração imediata dos batimentos cardíacos e aumento do fluxo sanguíneo para os membros inferiores.",
+        "Desaceleração cardíaca via nervo vago e desvio prioritário do fluxo sanguíneo para o cérebro e o coração.",
+        "Paralisia total do diafragma e bloqueio absoluto das trocas gasosas alveolares.",
+        "Hipertermia corporal súbita decorrente da contração muscular voluntária intensa.",
+        "Dilatação sistêmica generalizada com perda instantânea da pressão arterial média."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "text": "O vômito é considerado o maior obstáculo e perigo durante o atendimento pré-hospitalar ao afogado devido ao risco iminente de aspiração secundária. Para mitigar essa complicação durante o transporte da água para a areia, o guarda -vidas deve priorizar:",
+      "options": [
+        "O transporte tipo Bombeiro, apoiando o abdômen da vítima sobre o ombro.",
+        "A Técnica Australiana, mantendo as vias aéreas livres e o queixo sustentado.",
+        "O reboque vertical com a cabeça da vítima voltada para baixo.",
+        "O arrastamento subaquático mantendo a face da vítima submersa.",
+        "A rotação contínua do corpo da vítima a cada dez segundos."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "text": "Existem situações clínicas e temporais em que a equipe de salvamento está expressamente proibida de iniciar as manobras de Reanimação Cardiopulmonar (RCP). Assinale a alternativa que configura uma destas situações (condição de \"Já cadáver\"):",
+      "options": [
+        "Vítima resgatada com afogamento Grau 5 e pulso carotídeo presente.",
+        "Banhista desacordado com tempo exato de submersão de 15 minutos em água fria.",
+        "Vítima com tempo de submersão superior a 1 hora, ou exibindo rigidez cadavérica, livores ou decomposição corporal.",
+        "Criança resgatada de piscina sem sinais vitais após 5 minutos de imersão.",
+        "Indivíduo adulto em PCR hipotérmica leve sem sinais de rigidez muscular."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "text": "Durante a execução do Suporte Básico de Vida em um afogado inconsciente, o socorrista executa a abertura das vias aéreas e constata ausência de respiração. Em seguida, aplica as 5 ventilações iniciais de resgate. Ao verificar a circulação (através de movi mentos ou reação às ventilações, sem palpar pulso arterial), percebe que a vítima apresenta movimentos respiratórios espontâneos normais, mas permanece inconsciente. Classifica -se o quadro como:",
+      "options": [
+        "Grau 1",
+        "Grau 2",
+        "Grau 4",
+        "Grau 5",
+        "Grau 6"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 19,
+      "text": "No atendimento a um afogado classificado com Grau 3 (muita espuma na boca e/ou nariz, evidenciando edema agudo de pulmão, com pulso radial palpável), qual é a conduta imediata esperada pelo protocolo da SOBRASA?",
+      "options": [
+        "Liberar o paciente na areia após aquecimento com cobertor térmico.",
+        "Administrar oxigênio por máscara facial a 15 litros/min, posicionar em Posição Lateral de Segurança sob o lado direito e encaminhar ao CTI.",
+        "Iniciar imediatamente compressões torácicas externas na proporção de 30:2.",
+        "Realizar oxigenoterapia via cânula nasal a 5 litros/min e manter em decúbito dorsal plano.",
+        "Executar ventilação boca -a-boca a uma frequência fixa de 10 insuflações por minuto, sem oxigênio suplementar."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "text": "O mecanismo de Hipotermia Protetora atua de forma benéfica em cenários de submersão em águas frias porque:",
+      "options": [
+        "Aumenta a viscosidade do sangue, impedindo hemorragias internas nos órgãos nobres.",
+        "Eleva a temperatura interna dos músculos, facilitando o retorno da circulação espontânea.",
+        "Reduz o metabolismo cerebral e celular, diminuindo o consumo de oxigênio e conferindo maior tolerância à falha circulatória temporária.",
+        "Estimula a produção de glóbulos brancos que combatem infecções provocadas por bactérias da água doce.",
+        "Torna a caixa torácica mais flexível para a execução de compressões cardíacas profundas."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "text": "Sobre a distribuição geográfica das ocorrências de afogamento no Brasil, os dados epidemiológicos consolidados pela SOBRASA apontam que:",
+      "options": [
+        "A região Norte do país apresenta proporcionalmente os maiores índices de risco de morte por afogamento em relação à população residente.",
+        "O Distrito Federal registra historicamente as taxas mais elevadas de mortalidade por 100.000 habitantes do território nacional.",
+        "Os estados da região Sul concentram a totalidade das mortes por submersão devido ao Rio Grande do Sul.",
+        "A taxa de mortalidade nacional tem se mantido rigorosamente estagnada sem quedas desde a década de 1970.",
+        "O estado do Amapá apresenta índices zerados de mortalidade por afogamento desde o ano de 1990."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "text": "A atuação do guarda -vidas compreende quatro grandes pilares operacionais. Quando o profissional realiza uma palestra educativa em uma escola pública sobre os perigos das correntes de retorno, ele está atuando diretamente na área de:",
+      "options": [
+        "Resgate",
+        "Vigilância",
+        "Prevenção",
+        "Atendimento Pré -Hospitalar",
+        "Perícia Científica"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "text": "Um banhista é retirado da água apresentando tosse, mas sem nenhum sinal de espuma na boca ou no nariz. De acordo com a matriz de classificação da SOBRASA, trata-se de um afogamento de:",
+      "options": [
+        "Grau 1",
+        "Grau 2",
+        "Grau 3",
+        "Grau 4",
+        "Grau 5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "text": "Durante o processo de submersão, a fase em que a vítima submerge totalmente abaixo da superfície, sofrendo redução crítica da oxigenação cerebral e perda progressiva da consciência, é denominada:",
+      "options": [
+        "Surpresa e luta pela sobrevivência",
+        "Submersão inicial",
+        "Submersão completa",
+        "Parada respiratória isolada",
+        "Colapso cardiorrespiratório agudo"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "text": "No contexto da fisiopatologia do afogamento, a ausência de oxigênio circulante afeta inicialmente o sistema nervoso central, silenciando os centros respiratórios e provocando o seguinte desfecho clínico:",
+      "options": [
+        "Parada respiratória",
+        "Hiperventilação crônica",
+        "Parada cardíaca primária instantânea",
+        "Rigidez muscular generalizada",
+        "Edema pulmonar neurogênico bilateral"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "text": "Assinale a alternativa que caracteriza corretamente um Afogamento Primário:",
+      "options": [
+        "Ocorre em decorrência direta de um infarto agudo do miocárdio sofrido na borda da piscina.",
+        "Ocorre quando não há patologia prévia associada, estando relacionado à subestimação do risco ou superestimação da própria competência aquática.",
+        "É provocado exclusivamente pela inalação de produtos químicos industriais despejados em rios.",
+        "Sucede obrigatoriamente um acidente vascular encefálico hemorrágico dentro da água.",
+        "É o termo técnico atribuído a qualquer resgate de banhistas que não necessitam de atendimento médico."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "text": "A prevenção ativa compreende medidas estruturais e ambientais aplicadas antes do incidente. Dentre as opções abaixo, qual representa um exemplo clássico de Prevenção Ativa?",
+      "options": [
+        "Advertir verbalmente um banhista que ultrapassou a linha de boias de isolamento.",
+        "Aplicar respiração boca -a-boca em um afogado grau 5 na faixa de areia.",
+        "A instalação de placas de sinalização de perigo de corrente de retorno e barreiras físicas de proteção.",
+        "Executar o reboque australiano para retirar uma vítima exausta da água profunda.",
+        "Preencher o boletim de ocorrência estatística ao final do plantão de guarda - vidas."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 28,
+      "text": "O Algoritmo de Ressuscitação Dentro da Água (IWR) estipula limites claros para a execução de ventilações por socorristas treinados no meio líquido. Para uma vítima inconsciente sem respiração, o número máximo de insuflações na água antes de reavaliar ou r ebocar é de:",
+      "options": [
+        "Exatamente 2 ventilações",
+        "Até 10 ventilações",
+        "Exatamente 30 ventilações",
+        "Ciclos contínuos até completar 5 minutos na água",
+        "Nenhuma ventilação é permitida na água"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "text": "Para uma vítima resgatada da água que se encontra inconsciente, mas respirando espontaneamente, o posicionamento correto na areia estabelecido pelos manuais do CBMAP é:",
+      "options": [
+        "Decúbito dorsal horizontal estrito sem travesseiro.",
+        "Posição Lateral de Segurança sobre o lado direito.",
+        "Posição de Trendelenburg com inclinação de 45 graus.",
+        "Decúbito ventral com a face apoiada sobre as costas das mãos.",
+        "Sentada ereta com apoio lombar rígido."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "text": "Na sequência cronológica dos 8 passos iniciais do Suporte Básico de Vida em afogamentos da SOBRASA, qual procedimento sucede imediatamente a etapa de \"Abrir as vias aéreas\"?",
+      "options": [
+        "Verificar a resposta da vítima chamando -a pelo nome.",
+        "Iniciar imediatamente as compressões torácicas externas.",
+        "Verificar a respiração utilizando a técnica ver, ouvir e sentir.",
+        "Acionar o DEA e colar eletrodos adesivos.",
+        "Executar o transporte tipo bombeiro na areia."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 31,
+      "text": "Qual é a conduta de suporte oxigenoterápico indicada no atendimento pré - hospitalar a um afogado classificado com Grau 2?",
+      "options": [
+        "Oxigênio suplementar via cânula nasal a 5 litros/minuto.",
+        "Oxigênio por máscara facial de alto fluxo a 15 litros/minuto.",
+        "Ventilação mecânica invasiva com pressões positivas automáticas.",
+        "Nenhuma oferta de oxigênio, apenas repouso absoluto.",
+        "Administração de oxigênio hiperbárico na câmara subaquática."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "text": "Durante a realização de RCP em uma criança de 5 anos de idade vítima de afogamento Grau 6, o guarda -vidas deve seguir a diretriz específica de:",
+      "options": [
+        "Utilizar ambas as mãos sobrepostas com compressão profunda de 10 centímetros.",
+        "Utilizar apenas uma mão para executar as compressões torácicas.",
+        "Executar a proporção fixa de 30 compressões para 2 ventilações de forma vitalícia, sem revezamento.",
+        "Aplicar compressões exclusivamente com os polegares abraçando o tórax infantil.",
+        "Abster -se de fazer compressões, realizando apenas ventilações lentas."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "text": "O mecanismo de Troca Gasosa Residual evidencia que:",
+      "options": [
+        "Os pulmões humanos perdem todo o ar residual no exato instante em que ocorre o contato com a água.",
+        "Pequenas quantidades de oxigênio ainda podem passar dos alvéolos remanescentes para o sangue enquanto houver ar residual e circulação.",
+        "A troca gasosa residual é suficiente para manter a consciência plena da vítima por até duas horas de submersão.",
+        "O sangue venoso converte -se espontaneamente em sangue arterial sem a necessidade de passagem pulmonar.",
+        "A água salgada bloqueia permanentemente a membrana alveolar, anulando qualquer molécula gasosa."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "text": "Uma complicação temida pelo socorrista durante o atendimento ao afogado é o vômito. Para evitar essa intercorrência, a doutrina orienta evitar condutas iatrogênicas. Qual das seguintes ações aumenta o risco de vômito e deve ser evitada?",
+      "options": [
+        "Utilizar o transporte tipo Australiano em vez do tipo bombeiro.",
+        "Manter a cabeça da vítima no mesmo nível do tronco na areia.",
+        "Realizar insuflações exageradas que provoquem a distensão gástrica por ar.",
+        "Manter as vias aéreas limpas e desobstruídas antes de ventilar.",
+        "Lateralizar a face da vítima imediatamente ao notar presença de secreções líquidas."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 35,
+      "text": "Diante de uma vítima retirada da água que apresenta parada respiratória isolada, com presença de sinais de circulação (pulso carotídeo ou reação evidente), o quadro corresponde ao afogamento de:",
+      "options": [
+        "Grau 2",
+        "Grau 3",
+        "Grau 4",
+        "Grau 5",
+        "Grau 6"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 36,
+      "text": "Qual é a conduta operacional específica indicada na matriz da SOBRASA para um afogamento classificado com Grau 5?",
+      "options": [
+        "Iniciar imediatamente ciclos de 30 compressões torácicas e 2 ventilações.",
+        "Realizar ventilação boca -a-boca sem compressão cardíaca; após o retorno da respiração, tratar como Grau 4.",
+        "Administrar oxigênio por cânula nasal a 5 litros/minuto com o paciente sentado.",
+        "Encaminhar diretamente para liberação na areia sem exames complementares.",
+        "Executar a manobra de descompressão abdominal de Heimlich de forma imediata."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "text": "O lema institucional repetido nos manuais da SOBRASA e adotado nas instruções do CBMAP sintetiza a essência da atividade de salvamento aquático. Assinale -o corretamente:",
+      "options": [
+        "\"Quem sabe nadar nunca se afoga em águas rasas.\"",
+        "\"O melhor salvamento é aquele que não precisa acontecer\".",
+        "\"A prioridade absoluta do bombeiro é a imobilização cervical.\"",
+        "\"O oxigênio hiperbárico substitui o suporte básico na areia.\"",
+        "\"A submersão prolongada anula a necessidade de primeiros socorros.\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "text": "Durante o reboque de uma vítima consciente e exausta na água, o guarda - vidas deve conduzi -la preferencialmente em posição:",
+      "options": [
+        "Vertical, com a vítima segurando nos ombros do socorrista.",
+        "Próxima à horizontal, garantindo o conforto e a estabilidade respiratória.",
+        "De cabeça para baixo para esvaziar o estômago durante o trajeto.",
+        "Sentada sobre a prancha de resgate com flexão de joelhos.",
+        "Rotação lateral contínua a cada três metros nadados."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "text": "A imobilização da coluna cervical com colar e prancha longa em vítimas de afogamento possui uma diretriz específica nos protocolos do CBMAP. Assinale -a:",
+      "options": [
+        "Deve ser feita obrigatoriamente em 100% dos resgates aquáticos, independentemente de haver trauma.",
+        "É terminantemente proibida em qualquer hipótese de salvamento em praias de mar aberto.",
+        "Não deve ser feita de rotina, sendo indicada apenas quando houver sinais ou suspeita clara de trauma associado.",
+        "Substitui a necessidade de ventilação precoce nos primeiros minutos de atendimento.",
+        "Deve ser executada ainda com a vítima submersa a dois metros de profundidade."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 40,
+      "text": "Quando um guarda -vidas realiza advertências verbais e orientações preventivas a um banhista que adentra uma área de forte correnteza, ele está praticando:",
+      "options": [
+        "Prevenção Ativa",
+        "Prevenção Reativa",
+        "Suporte Avançado de Vida",
+        "Resgate de Grau 4",
+        "Triagem START aquática"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "text": "O método START aquático é uma ferramenta de triagem utilizada principalmente em situações de:",
+      "options": [
+        "Incêndios estruturais em embarcações atracadas.",
+        "Resgate a múltiplas vítimas simultâneas no meio aquático.",
+        "Mergulho autônomo em profundidades superiores a 30 metros.",
+        "Desabamento de margens fluviais por erosão.",
+        "Contenção de produtos perigosos em bacias hidrográficas."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "text": "Em relação à frequência das compressões torácicas executadas durante o protocolo de RCP (Grau 6) em adultos na areia, o padrão técnico recomendado é de:",
+      "options": [
+        "60 a 80 compressões por minuto.",
+        "100 a 120 compressões por minuto.",
+        "140 a 160 compressões por minuto.",
+        "Exatamente 90 compressões por minuto.",
+        "Livre frequência conforme o cansaço do operador."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "text": "A conduta clínica imediata indicada para um afogamento de Grau 4 (muita espuma na boca/nariz, ausência de pulso radial palpável) inclui o acionamento de ambulância urgente e a internação em:",
+      "options": [
+        "Enfermaria pediátrica de baixa complexidade.",
+        "Centro de Tratamento Intensivo (CTI) com urgência.",
+        "Unidade Básica de Saúde (UBS) sem suporte de oxigênio.",
+        "Domicílio do paciente após 2 horas de repouso.",
+        "Posto de guarda -vidas avançado na faixa de areia."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "text": "Analise a seguinte assertiva: \"A falta de oxigênio é a principal causa de morte no afogamento.\" Com base nos fundamentos teóricos da disciplina, essa afirmação é:",
+      "options": [
+        "Falsa, pois a principal causa de óbito é a hipotermia fulminante.",
+        "Falsa, pois a ingestão de água doce provoca alteração iônica fatal imediata no coração.",
+        "Verdadeira, justificando a prioridade absoluta concedida à ventilação precoce no atendimento.",
+        "Falsa, visto que o colapso osteomuscular impede a circulação sistêmica.",
+        "Verdadeira apenas para afogamentos ocorridos em água salgada."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 45,
+      "text": "Durante a execução de manobras de SBV na areia, caso a vítima de afogamento venha a apresentar vômito, qual deve ser a primeira ação mecânica imediata do socorrista?",
+      "options": [
+        "Aplicar compressões abdominais vigorosas para drenar o restante do estômago.",
+        "Virar a face da vítima lateralmente e limpar rapidamente a cavidade oral.",
+        "Elevar os braços da vítima acima da cabeça em decúbito dorsal.",
+        "Insuflar ar com maior pressão para empurrar o conteúdo gástrico de volta.",
+        "Afastar -se do paciente e aguardar a chegada do médico regulador."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 46,
+      "text": "Qual é a classificação oficial atribuída pela SOBRASA a uma pessoa socorrida da água que apresenta tosse, mas sem espuma na boca ou no nariz?",
+      "options": [
+        "Resgate simples",
+        "Afogamento Grau 1",
+        "Afogamento Grau 3",
+        "Afogamento Grau 5",
+        "Cadáver por afogamento"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 47,
+      "text": "O posicionamento correto dos guarda -vidas na areia durante a execução da Reanimação Cardiopulmonar (RCP) com dois socorristas determina que eles se coloquem:",
+      "options": [
+        "Ambos ajoelhados em direção aos pés da vítima.",
+        "Lateralmente ao afogado e em lados opostos.",
+        "Um na cabeça e outro sentado sobre as coxas do paciente.",
+        "Em pé, distantes a dois metros para facilitar o revezamento.",
+        "Apenas do lado esquerdo, alinhados ao eixo cardíaco."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "text": "O treinamento prático de flutuação e sobrevivência aquática integrante do sistema de avaliação da disciplina (como a Avaliação 2) exige dos instruendos resistência em ambiente controlado. A flutuação com Uniforme Operacional 3°A possui o tempo regulamenta r de:",
+      "options": [
+        "1 minuto",
+        "12 minutos",
+        "30 minutos",
+        "1 hora",
+        "24 horas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 49,
+      "text": "A fase do processo de submersão caracterizada pela ausência total de movimentos respiratórios e instalação de hipóxia severa, antecedendo o colapso cardíaco, é denominada:",
+      "options": [
+        "Surpresa e luta pela sobrevivência",
+        "Submersão inicial",
+        "Submersão completa",
+        "Parada respiratória",
+        "Estado de óbito irreversível"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 50,
+      "text": "Sobre os critérios de encerramento ou interrupção das manobras de RCP em um afogado Grau 6 na areia, os manuais do CBMAP estabelecem que a reanimação deve ser mantida até que:",
+      "options": [
+        "Um popular na praia solicite a parada do atendimento.",
+        "Haja resposta com retorno da função cardiopulmonar, entrega do afogado a uma equipe médica, ou ocorra a exaustão física do guarda -vidas.",
+        "O relógio do socorrista complete exatamente 10 minutos de atendimento contínuo.",
+        "O sol ponha -se no horizonte, independentemente do estado clínico.",
+        "A ambulância de suporte básico estacione a mais de cem metros de distância."
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

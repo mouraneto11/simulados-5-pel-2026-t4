@@ -42,12 +42,21 @@ let deferredPrompt;
 // Inicialização
 async function init() {
     try {
-        // Tenta carregar o JSON (pode vir do cache do SW ou da rede)
-        const response = await fetch('./simulados.json');
-        if (!response.ok) throw new Error('Falha ao carregar os simulados');
-        
-        allSimulados = await response.json();
-        
+        // Carrega a lista de simulados disponíveis (pode vir do cache do SW ou da rede)
+        const manifestResponse = await fetch('./simulados/manifest.json');
+        if (!manifestResponse.ok) throw new Error('Falha ao carregar a lista de simulados');
+
+        const manifest = await manifestResponse.json();
+
+        // Cada simulado fica em seu próprio arquivo JSON dentro de ./simulados/
+        allSimulados = await Promise.all(
+            manifest.map(async (filename) => {
+                const response = await fetch(`./simulados/${filename}`);
+                if (!response.ok) throw new Error(`Falha ao carregar o simulado ${filename}`);
+                return response.json();
+            })
+        );
+
         if (allSimulados && allSimulados.length > 0) {
             populateSimuladosDropdown();
         } else {
@@ -55,7 +64,7 @@ async function init() {
         }
     } catch (error) {
         console.error("Erro na inicialização:", error);
-        questionCountInfo.textContent = "Erro ao carregar simulados (Verifique simulados.json).";
+        questionCountInfo.textContent = "Erro ao carregar simulados (Verifique a pasta simulados/).";
         simuladoSelect.innerHTML = '<option value="">Erro ao carregar</option>';
     }
 }

@@ -1,0 +1,511 @@
+{
+  "id": "simulado_defesa_civil_amapa",
+  "title": "Simulado - Proteção e Defesa Civil do Amapá",
+  "questions": [
+    {
+      "id": 1,
+      "text": "De acordo com os conceitos básicos da Proteção e Defesa Civil, como é definido 'Desastre'?",
+      "options": [
+        "Resultado de eventos adversos, naturais, tecnológicos ou de origem antrópica, sobre um cenário vulnerável exposto a ameaça, causando danos humanos, materiais ou ambientais e consequentes prejuízos econômicos.",
+        "Evento em potencial com elevada possibilidade de causar perdas socioeconômicas e danos estruturais nas áreas urbanas.",
+        "Grau de perda para um dado elemento ou grupo dentro de uma área afetada por um processo geológico severo.",
+        "Potencial de ocorrência de evento adverso sob um cenário vulnerável sem a presença de ameaças reais.",
+        "Área passível de ser atingida por processos naturais e/ou induzidos que causem efeito adverso imediato à população."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "text": "A Coordenadoria Estadual lista cenários de riscos específicos no Amapá. Qual das alternativas contém EXCLUSIVAMENTE cenários de riscos listados para o Estado do Amapá?",
+      "options": [
+        "Inundação, Furacões, Alagamento, Erosão Fluvial e Terremotos.",
+        "Enchentes, Vulcanismo, Deslizamentos, Estiagem e Tornados.",
+        "Inundação, Enchentes, Alagamento, Erosão Fluvial, Deslizamentos e Estiagem.",
+        "Tsunamis, Erosão Fluvial, Deslizamentos, Estiagem e Inundação.",
+        "Alagamento, Erosão Eólica, Nevascas, Seca e Deslizamentos."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "text": "No estudo de riscos hidrológicos, qual é a diferença conceitual que define uma 'Enchente'?",
+      "options": [
+        "É o transbordamento das águas de um canal de drenagem, atingindo as áreas marginais ou planícies de inundação.",
+        "É o acúmulo de águas nas ruas e nos perímetros urbanos estritamente por problemas de drenagem ineficiente.",
+        "É o aumento temporário do nível d'água no canal de drenagem devido ao aumento da vazão, atingindo a cota máxima do canal, porém, sem transbordamento.",
+        "É a ocorrência de erosão fluvial severa que causa o desmoronamento das margens dos rios urbanos.",
+        "É a invasão de massas de águas oceânicas sobre os centros urbanos costeiros e ribeirinhos."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "text": "Dentro das ações de prevenção, a redução de riscos de desastres envolve a adoção de medidas não-estruturais. Qual das opções abaixo é considerada uma medida NÃO-ESTRUTURAL?",
+      "options": [
+        "Construção de barragens reguladoras com diques de proteção e vertedouros.",
+        "Execução de obras pesadas de estabilização de encostas e taludes.",
+        "Obras de canalização de córregos para otimização do fluxo hídrico.",
+        "Obras de captação de água, como a perfuração de poços e instalação de cisternas.",
+        "Uso racional do espaço geográfico através de legislação, fiscalização e sensibilização, como o Plano Diretor e o Código de Obras."
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 5,
+      "text": "O Gerenciamento de Desastres envolve diversas fases de atuação. Quais são as ações que compõem especificamente a fase de 'Resposta' aos desastres?",
+      "options": [
+        "Socorro, Ajuda Humanitária e Ações de restabelecimento.",
+        "Prevenção, Mitigação de danos e Preparação de comunidades.",
+        "Desenvolvimento institucional, monitoramento de áreas e sistema de alerta.",
+        "Reconstrução de casas, reparação de pontes e reabilitação do meio ambiente.",
+        "Elaboração de mapas de risco, pesquisa histórica e hierarquização de ameaças."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "text": "Segundo a I.N. 36 (2020), apresentada no material da CEDEC, a 'Vulnerabilidade' é conceituada como:",
+      "options": [
+        "A área física passível de ser atingida permanentemente por processos naturais intensos.",
+        "A probabilidade exata de ocorrer um efeito adverso sobre a infraestrutura crítica do município.",
+        "A ocorrência de eventos adversos causando prejuízos econômicos de grande monta à iniciativa privada.",
+        "O grau de perda para um dado elemento ou grupo dentro de uma área afetada por um processo, caracterizando a exposição socioeconômica ou ambiental.",
+        "O evento em si, natural ou tecnológico, com elevada possibilidade de causar destruição de abrigos temporários."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "text": "Durante as ações de prevenção, na etapa de 'Avaliação de riscos de desastres', são realizadas duas análises principais e fundamentais. Quais são elas?",
+      "options": [
+        "Análise de recursos de socorro e análise de distribuição de ajuda humanitária.",
+        "Análise de reconstrução urbana e análise de reabilitação econômica.",
+        "Análise das ameaças e análise das vulnerabilidades.",
+        "Análise de sistemas de monitoramento e análise de protocolos de alarme.",
+        "Análise de obras estruturais e análise de políticas públicas não-estruturais."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "text": "O que caracteriza especificamente o fenômeno de 'Alagamento', diferenciando-o de outros eventos hidrológicos, de acordo com as definições de Defesa Civil?",
+      "options": [
+        "É o transbordamento incontrolável das águas dos rios atingindo a extensa planície de inundação local.",
+        "É o aumento contínuo e temporário do nível do rio principal, chegando ao limite máximo sem transbordar.",
+        "É o acúmulo de águas nas ruas e nos perímetros urbanos causado diretamente por problemas de drenagem.",
+        "É o rompimento súbito de barragens reguladoras que falham na retenção de diques de proteção.",
+        "É o processo severo de erosão fluvial que destrói rodovias e afeta comunidades ribeirinhas durante o inverno."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "text": "As 'Ações de Restabelecimento', que compõem a vertente de Resposta do ciclo de gerenciamento de desastres, incluem quais tipos de atividades práticas primárias?",
+      "options": [
+        "O restabelecimento do fornecimento de energia e água, bem como a limpeza imediata das vias afetadas.",
+        "A construção definitiva de novos conjuntos habitacionais para abrigar a população deslocada.",
+        "A elaboração técnica de planos de contingência e a realização de vistorias preventivas em áreas críticas.",
+        "A distribuição ostensiva de alimentos não perecíveis, água potável e a instalação de acampamentos provisórios.",
+        "A compra e desenvolvimento de tecnologia de satélite avançada para antever o retorno das chuvas sazonais."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "text": "O 'Desenvolvimento de recursos humanos' é classificado no ciclo como uma importante ação de preparação para desastres. Qual das alternativas é citada como exemplo dessa capacitação no Amapá?",
+      "options": [
+        "Apenas o treinamento operacional e físico das tropas militares para atividades exclusivas de salvamento em altura.",
+        "A formação de condutores exclusivamente para o manejo de cães farejadores na fase aguda de resposta.",
+        "A contratação emergencial de engenheiros estrangeiros focados em gestão humanitária internacional.",
+        "A elaboração de leis restritivas focadas em alterar de imediato o Código de Obras do Município de Macapá.",
+        "A capacitação Básica em Defesa Civil (CBDC) e a capacitação dos gestores para uso do Sistema Integrado de Informações sobre Desastres (S2iD)."
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 11,
+      "text": "Segundo a CF/88, a quem incumbe executar atividades de Defesa Civil?",
+      "options": [
+        "Polícia Civil",
+        "Defesa Civil Municipal",
+        "Corpo de Bombeiros Militar",
+        "Forças Armada"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "text": "A Constituição do Amapá atribui ao CBMAP, entre outras funções:",
+      "options": [
+        "Apenas socorro",
+        "Atividades de Defesa Civil, inclusive planejamento e coordenação",
+        "Apenas prevenção",
+        "Somente combate a incêndio"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "text": "O primeiro esboço da Defesa Civil no Brasil surgiu em qual contexto?",
+      "options": [
+        "Enchentes de 1966",
+        "Constituição de 1988",
+        "Segunda Guerra Mundial",
+        "Criação do SINPDEC"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "text": "Qual lei instituiu a Política Nacional de Proteção e Defesa Civil – PNPDEC?",
+      "options": [
+        "Lei 12.846/2013",
+        "Lei 12.608/2012",
+        "Lei 14.133/2021",
+        "Lei 3.409/2026"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "text": "Defesa Civil deve ser entendida principalmente como:",
+      "options": [
+        "Um órgão estadual",
+        "Uma unidade do CBM",
+        "Um sistema",
+        "Uma secretaria federal"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "text": "Qual é o órgão central que coordena, planeja e orienta o Sistema Estadual de PDC do Amapá?",
+      "options": [
+        "SEDEC",
+        "GDEC/AP",
+        "COMPDEC",
+        "SINPDEC"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "text": "O GDEC/AP está vinculado a qual instituição?",
+      "options": [
+        "SEAS",
+        "Assembleia Legislativa",
+        "CBMAP",
+        "TCE/AP"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "text": "Busca e salvamento de vítimas durante uma inundação é ação:",
+      "options": [
+        "Preventiva",
+        "Reabilitadora",
+        "De socorro",
+        "Reconstrutiva"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "text": "Qual destas é uma ação preventiva?",
+      "options": [
+        "Busca e salvamento",
+        "Obra de contenção antes do desastre",
+        "Distribuição de alimentos",
+        "Reconstrução de ponte destruída"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "text": "Distribuir água e alimentos às famílias atingidas é ação:",
+      "options": [
+        "Preventiva",
+        "Reconstrutiva",
+        "Assistencial",
+        "De fiscalização"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "text": "Restabelecer provisoriamente uma ponte danificada caracteriza ação:",
+      "options": [
+        "Preventiva",
+        "Reabilitadora",
+        "Assistencial",
+        "Reconstrutiva"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "text": "Reconstruir definitivamente uma ponte destruída caracteriza ação:",
+      "options": [
+        "De socorro",
+        "Reabilitadora",
+        "Assistencial",
+        "Reconstrutiva"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 23,
+      "text": "Uma encosta, com possibilidade de deslizamento, representa principalmente:",
+      "options": [
+        "Dano",
+        "Ameaça",
+        "Prejuízo",
+        "Desastre"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "text": "A possibilidade de deslizamento de terra, seria?",
+      "options": [
+        "Vulnerabilidade",
+        "risco",
+        "ameaça",
+        "exposição"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "text": "O deslizamento efetivado que soterrou dezemas de pessoas, seria?",
+      "options": [
+        "Dano",
+        "Ameaça",
+        "Prejuízo",
+        "Desastre"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 26,
+      "text": "Pessoas e imóveis localizados em área sujeita à inundação representam:",
+      "options": [
+        "Exposição",
+        "Dano",
+        "Ameaça",
+        "Desastre"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "text": "Condições que tornam uma comunidade mais suscetível aos efeitos de uma ameaça representam:",
+      "options": [
+        "Exposição",
+        "Vulnerabilidade",
+        "Evento adverso",
+        "Prejuízo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "text": "O risco representa:",
+      "options": [
+        "O desastre já ocorrido",
+        "Somente a ameaça",
+        "A possibilidade de ocorrência de um desastre",
+        "Somente os danos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 29,
+      "text": "O Rio Guaiba que transbordou e inundou Porto Alegre seria?",
+      "options": [
+        "A vulnerabilidade",
+        "O evento adverso",
+        "O risco",
+        "A ameaça"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 30,
+      "text": "Na relação apresentada em aula, o risco envolve:",
+      "options": [
+        "Ameaça + dano",
+        "Dano × prejuízo",
+        "Ameaça × vulnerabilidade × exposição",
+        "Evento × resposta"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 31,
+      "text": "Existe uma ameaça, mas ninguém e nenhum bem está exposto. O risco tende a ser:",
+      "options": [
+        "Elevado",
+        "Maior",
+        "Reduzido ou inexistente",
+        "Um desastre"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 32,
+      "text": "O desastre é:",
+      "options": [
+        "Sinônimo de ameaça",
+        "Qualquer evento adverso",
+        "A concretização do risco com consequências danosas",
+        "Apenas um prejuízo econômico"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 33,
+      "text": "O mesmo evento adverso pode gerar impactos diferentes em duas comunidades principalmente devido às diferenças de:",
+      "options": [
+        "Horário",
+        "Vulnerabilidade e exposição",
+        "Nome do desastre",
+        "COBRADE"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "text": "Uma enchente atinge um bairro onde moram 20 mil famílias. Apenas 14 mil sofreram danos. As 14 mil famílias representam:",
+      "options": [
+        "danos",
+        "vulnerabilidades",
+        "prejuizos",
+        "Exposição"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "text": "Uma enchente atinge um bairro onde moram 20 mil famílias. Apenas 14 mil sofreram danos. As 20 mil famílias representam:",
+      "options": [
+        "danos",
+        "vulnerabilidades",
+        "prejuizos",
+        "Exposição"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "text": "Um desastre controlado com recursos mobilizados em nível local é classificado como:",
+      "options": [
+        "Nível I",
+        "Nível II",
+        "Nível III",
+        "ECP"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "text": "Quando os recursos locais precisam ser complementados pelo Estado ou União, o desastre é:",
+      "options": [
+        "Nível I",
+        "Nível II",
+        "Nível III",
+        "Não classificável"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "text": "Qual nível pode exigir ação coordenada das três esferas do SINPDEC?",
+      "options": [
+        "Nível I",
+        "Nível III",
+        "Nível II",
+        "Todos obrigatoriamente"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "text": "Danos humanos, materiais e ambientais representam:",
+      "options": [
+        "Somente valores financeiros",
+        "Ameaças",
+        "Consequências do desastre",
+        "Probabilidades"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 40,
+      "text": "Perdas de natureza econômica decorrentes do desastre correspondem a:",
+      "options": [
+        "Ameaça",
+        "Vulnerabilidade",
+        "Prejuízo",
+        "Exposição"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 41,
+      "text": "A COBRADE é utilizada para:",
+      "options": [
+        "Medir vulnerabilidade",
+        "Calcular prejuízos",
+        "Classificar e codificar desastres",
+        "D) Definir efetivo operacional"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 42,
+      "text": "Quem pode declarar SE ou ECP?",
+      "options": [
+        "Coordenador municipal",
+        "Chefe do Poder Executivo competente",
+        "Comandante do CBM",
+        "SEDEC"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "text": "Desastres de níveis I e II ensejam:",
+      "options": [
+        "ECP",
+        "Somente reconhecimento federal",
+        "SE",
+        "Nenhum registro"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 44,
+      "text": "Desastres de nível III ensejam:",
+      "options": [
+        "SE",
+        "Apenas alerta",
+        "ECP",
+        "Somente registro"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 45,
+      "text": "O prazo máximo apresentado para requerer reconhecimento federal é:",
+      "options": [
+        "5 dias",
+        "10 dias",
+        "30 dias",
+        "Até 180 dias"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

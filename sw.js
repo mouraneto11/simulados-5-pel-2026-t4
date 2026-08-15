@@ -1,11 +1,14 @@
-const CACHE_NAME = 'cfsd-simulados-v3';
+const CACHE_NAME = 'cfsd-simulados-v4';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
     './style.css',
     './app.js',
     './manifest.json',
-    './simulados.json',
+    './simulados/manifest.json',
+    './simulados/salvamento_aquatico.json',
+    './simulados/simulado_lri_amapa_10.json',
+    './simulados/simulado_defesa_civil_amapa.json',
     './icon-192.png',
     './icon-512.png'
 ];
