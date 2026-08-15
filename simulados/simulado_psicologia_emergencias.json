@@ -1,0 +1,342 @@
+{
+  "id": "simulado_psicologia_emergencias",
+  "title": "Simulado - Psicologia das Emergências",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Qual é a origem e o significado da palavra 'Luto' apresentados no material?",
+      "options": [
+        "Do grego 'lupus', que significa desespero e pranto prolongado.",
+        "Do latim 'luctu', que significa dor e tristeza aguda.",
+        "Do latim 'luctare', que significa lutar contra a morte.",
+        "Do francês 'loute', que significa lamento fúnebre.",
+        "Do hebraico antigo, referindo-se a cerimônias de despedida."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "text": "Segundo as fases do luto de Kübler-Ross, a fase caracterizada por uma 'profunda tristeza, apatia e desmotivação ante a realidade inevitável' é a:",
+      "options": [
+        "Aceitação.",
+        "Barganha.",
+        "Depressão.",
+        "Negação.",
+        "Raiva."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "text": "De acordo com o material, por que as reações de luto em emergências e desastres são vividas de forma intensa e dolorida?",
+      "options": [
+        "Porque os sobreviventes ficam sempre sem assistência psicológica após o resgate.",
+        "Devido à exposição a imagens constantes do evento nos meios de comunicação.",
+        "Porque a vítima perdeu subitamente sua figura de apego ou sua base de segurança.",
+        "Pela perda exclusiva de bens materiais que garantiam o sustento familiar.",
+        "Por conta da negação coletiva das autoridades competentes."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "text": "Na fase de 'Barganha' do luto (Kübler-Ross), a principal característica é:",
+      "options": [
+        "Mecanismo de defesa temporário e recusa da realidade.",
+        "Expressão de revolta, frustração e busca por culpados.",
+        "Adaptação à mudança e possibilidade de seguir em frente.",
+        "Tentativa de aliviar a dor e negociar soluções ilusórias.",
+        "Profunda letargia e impossibilidade de comunicação verbal."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 5,
+      "text": "Sobre a progressão das fases do luto, a Nota Operacional orienta que:",
+      "options": [
+        "Os estágios seguem rigorosamente a mesma ordem matemática para todas as vítimas.",
+        "Os estágios não seguem uma ordem rígida; nem todos passam por todas as fases, mas qualquer mudança pessoal ativará pelo menos duas.",
+        "O luto deve ser superado obrigatoriamente dentro da janela crítica de 72 horas.",
+        "A aceitação deve preceder a depressão em cenários de emergência e desastres.",
+        "O estágio da barganha nunca é atingido por sobreviventes de eventos com múltiplas vítimas."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "text": "No Protocolo de Atendimento e Comunicação de Más Notícias, na etapa de 'A Entrega (Comunicação)', o que significa 'Fracionar a informação'?",
+      "options": [
+        "Mentir temporariamente até que a vítima se acalme.",
+        "Dar a informação de forma rápida e impactante para evitar sofrimento prolongado.",
+        "Notícias difíceis devem ser dadas aos poucos, mas sem rodeios desnecessários.",
+        "Repassar apenas as informações positivas e omitir os óbitos.",
+        "Passar a responsabilidade da comunicação para familiares presentes."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "text": "Na etapa de 'Acolhimento e Escuta' (Postura), a atitude de 'Apoio contínuo' envolve:",
+      "options": [
+        "Rotular imediatamente o choro da vítima como depressão profunda.",
+        "Informar sobre redes de apoio e não rotular o luto natural como depressão.",
+        "Aconselhar a vítima a conter suas emoções para não atrapalhar o resgate.",
+        "Silenciar a vítima se o seu desespero se tornar incontrolável.",
+        "Apenas estar presente, bloqueando a comunicação verbal da vítima."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "text": "Na 1ª Fase Evolutiva do Estresse (Fase de Alarme), qual é a resposta fisiológica inicial do corpo ao ter contato com o estressor?",
+      "options": [
+        "O sistema nervoso autônomo diminui os batimentos cardíacos causando apatia letárgica.",
+        "O sistema nervoso simpático libera adrenalina/cortisol e o corpo entra em prontidão geral.",
+        "O organismo entra em colapso devido à falta de adaptação muscular.",
+        "A memória sofre amnésia dissociativa imediata impedindo a ação de resgate.",
+        "Há uma desativação completa do eixo hormonal, bloqueando a fadiga aguda."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "text": "O que ocorre com o organismo na 2ª Fase Evolutiva do Estresse (Fase de Resistência)?",
+      "options": [
+        "A resposta nervosa aguda é substituída por um esforço de adaptação contínuo; o organismo tenta equilibrar as emoções e se acostumar ao estressor.",
+        "Ocorre falha na adaptação, o corpo não suporta o esforço prolongado e os sintomas de colapso se instalam.",
+        "Ocorre liberação máxima de cortisol, gerando um estado de pânico paralisante imediato.",
+        "Há um apagamento total das memórias dolorosas do evento traumático.",
+        "O indivíduo desliga-se completamente da corporação demonstrando cinismo profissional."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "text": "Na 3ª Fase Evolutiva do Estresse (Fase de Exaustão), as consequências para o profissional incluem:",
+      "options": [
+        "Aumento da produtividade e hiperfoco no salvamento.",
+        "O retorno da homeostase corporal com a superação total do trauma.",
+        "Retorno dos sintomas de alarme, gerando problemas físicos severos, falha na performance e risco à vida.",
+        "Adaptação natural ao ambiente de trabalho hostil.",
+        "Ausência completa de sintomas físicos, mas presença de desmotivação leve."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "text": "Na Curva de Performance e Esgotamento, o termo 'Eustress' refere-se a:",
+      "options": [
+        "Estresse prolongado e sem recuperação.",
+        "Ao esgotamento das reservas cognitivas do bombeiro.",
+        "Estresse em doses adequadas que mantêm o profissional focado e produtivo.",
+        "Um trauma severo advindo de exposição prolongada no epicentro.",
+        "O momento de queda drástica do desempenho físico em ocorrências."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "text": "O que caracteriza a 'Exaustão' na curva de performance, também descrita como o colapso na atividade bombeiro militar?",
+      "options": [
+        "Condição ideal onde o treinamento encontra o foco absoluto.",
+        "Aumento repentino de energia proveniente do Eustress.",
+        "A readaptação natural aos estímulos do ambiente sem prejuízo significativo.",
+        "A queda drástica de performance cognitiva e física que coloca a guarnição em risco.",
+        "O equilíbrio alcançado após a primeira fase de alarme adrenal."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "text": "O que ocorre durante a Janela Crítica de 72 Horas?",
+      "options": [
+        "Capacitação e treinamento em tempos de paz.",
+        "Acomodação da nova realidade e reconstrução comunitária.",
+        "É neste período exato que os Primeiros Socorros Psicológicos (PSP) devem ser aplicados para prevenir traumas duradouros.",
+        "Surgimento exclusivo do Transtorno de Estresse Pós-Traumático (TEPT).",
+        "O encerramento imediato das operações de busca e salvamento estrutural."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "text": "De acordo com 'O Fator Tempo: Diferenciando o Trauma', qual é o diagnóstico adequado se as reações disfuncionais intensas persistirem de 3 dias até 1 mês?",
+      "options": [
+        "Readaptação Natural.",
+        "Síndrome de Burnout.",
+        "Transtorno de Estresse Pós-Traumático (TEPT).",
+        "Transtorno de Estresse Agudo (TEA).",
+        "Fadiga por Compaixão."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 15,
+      "text": "A readaptação natural, que envolve os primeiros auxílios emocionais e reações intensas que ainda não configuram um transtorno mental, ocorre em qual intervalo de tempo após o impacto?",
+      "options": [
+        "De 0 a 72 horas.",
+        "Após 3 dias até 1 semana.",
+        "A partir de 15 dias.",
+        "Após 1 mês contínuo.",
+        "A partir do sexto mês da ocorrência."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "text": "O Transtorno de Estresse Pós-Traumático (TEPT) é manifestado ou diagnosticado após qual período mínimo desde a ocorrência do evento traumático?",
+      "options": [
+        "72 horas.",
+        "1 semana.",
+        "3 dias.",
+        "1 mês.",
+        "6 meses."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "text": "Entre os sintomas do TEA (Transtorno de Estresse Agudo), a sensação de que o evento traumático está ocorrendo novamente é denominada:",
+      "options": [
+        "Burnout.",
+        "Hipervigilância.",
+        "Flashbacks.",
+        "Amnésia dissociativa.",
+        "Distúrbio do sono."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "text": "No TEPT, o grupo de sintomas classificados como 'Efeitos Negativos' inclui:",
+      "options": [
+        "Pesadelos recorrentes e invasão do pensamento repetido.",
+        "Dificuldade em adormecer e hipervigilância constante.",
+        "Efeitos sobre o pensamento e o humor, amnésia dissociativa, sentimentos de culpa e sintomas de depressão.",
+        "A recusa sistemática de conversar sobre o evento.",
+        "Dor de cabeça frequente e dores musculares associadas ao ambiente."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "text": "Qual sintoma do TEPT é caracterizado por memórias indesejadas involuntárias, pesadelos recorrentes e flashbacks?",
+      "options": [
+        "Intrusivos.",
+        "Evitáveis.",
+        "Efeitos Negativos.",
+        "Alterações no Alerta.",
+        "Desgaste Ocupacional."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "text": "Na 'Matriz Diagnóstica' entre Síndrome de Burnout e Fadiga por Compaixão, qual é o foco principal da Exaustão na Fadiga por Compaixão?",
+      "options": [
+        "O Sistema e as regras corporativas.",
+        "A burocracia e as expectativas financeiras não atendidas.",
+        "O Ambiente de Trabalho e a chefia imediata.",
+        "O Sofrimento do Outro (a dor expressada pelos pacientes e a empatia).",
+        "As condições climáticas adversas nas ocorrências rurais."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "text": "Qual é o principal mecanismo gerador da Síndrome de Burnout?",
+      "options": [
+        "Alta exposição ao trauma alheio e o custo do cuidado contínuo a vítimas em dor extrema.",
+        "Estresse crônico sistêmico pelo trabalho, frustração constante com expectativas não atendidas e sobrecarga ocupacional.",
+        "Reações temporárias a um evento crítico isolado após 72h.",
+        "Lesões crônicas musculoesqueléticas causadas pelo uso de EPIs.",
+        "Falha exclusiva na meditação e nas práticas espirituais individuais."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "text": "Na Fadiga por Compaixão, o Sintoma Central indica que o profissional:",
+      "options": [
+        "Entra em colapso devido à falta de reconhecimento do comando.",
+        "Desliga-se da corporação, sentindo profundo cinismo e desgosto pelo trabalho.",
+        "Ainda gosta da sua profissão e quer ajudar, mas entra em colapso emocional por absorver o desespero e a dor dos pacientes.",
+        "Sofre de amnésia dissociativa aguda, perdendo a capacidade de lembrar dos protocolos operacionais.",
+        "Desenvolve sentimentos de incompetência generalizada ao manusear as viaturas."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "text": "Entre os sintomas físicos e comportamentais do Burnout listados no material, inclui-se:",
+      "options": [
+        "Aumento irreal de energia, seguido de euforia incontrolável no ambiente de trabalho.",
+        "Sentimento de alta competência associado a longos turnos voluntários.",
+        "Flashbacks constantes das ocorrências passadas e hipervigilância noturna aguda.",
+        "Dor de cabeça frequente, insônia, nervosismo, sensação de exaustão física e baixo comprometimento no trabalho.",
+        "Ausência completa de sintomas físicos, revelando-se apenas através de tristeza leve."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 24,
+      "text": "Como Primeira Linha de Defesa na estratégia de prevenção em cenários críticos, a instrução preconiza:",
+      "options": [
+        "Trabalho sempre individual para evitar o contágio psicológico da equipe.",
+        "Garantir a execução da atividade mesmo sem as devidas horas de sono prévias.",
+        "O Trabalho em Duplas, onde um parceiro observa o nível de estresse do outro prestando auxílio necessário.",
+        "Medicar a guarnição antecipadamente de forma protocolar antes de qualquer desastre de grandes proporções.",
+        "Solicitar imediatamente a presença de psicólogos civis no epicentro primário para as equipes operacionais."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "text": "Na prevenção com 'Trabalho em Duplas', a função de 'Apoiar e Observar' consiste em:",
+      "options": [
+        "Um profissional afastar-se totalmente da operação para repouso no quartel.",
+        "Um ficar atento ao outro e auxiliar no melhor manejo da situação, prevenindo ações impulsivas.",
+        "Intervir fisicamente no atendimento da vítima substituindo as ferramentas táticas do parceiro.",
+        "Comunicar verbalmente todos os passos via rádio ao CIODES com o máximo de detalhes críticos.",
+        "Prestar auxílio psiquiátrico de imediato através de medicamentos ansiolíticos in loco."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "text": "Os Tipos de Autocuidado formam 'Os 4 Pilares da Manutenção Pessoal'. Dormir, descansar, atividade física e alimentação saudável pertencem ao pilar:",
+      "options": [
+        "Emocional.",
+        "Social.",
+        "Espiritual.",
+        "Físico.",
+        "Psicológico."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 27,
+      "text": "O pilar de Autocuidado Emocional inclui práticas como:",
+      "options": [
+        "Manejo do estresse, autoperdão, coragem, autocompaixão e positividade.",
+        "Meditação, conexão com a natureza e oração.",
+        "Pedir ajuda, dar e receber e manter relações saudáveis.",
+        "Descanso contínuo e uso de tratamentos hiperbáricos de relaxamento.",
+        "Foco estrito no estudo de novas técnicas e protocolos."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "text": "Como são classificadas as vítimas de Nível 3 (Terciárias)?",
+      "options": [
+        "Pessoas localizadas no epicentro do desastre em risco de morte ou lesão.",
+        "Familiares e amigos das vítimas primárias.",
+        "Membros gerais da comunidade afetada pelo trauma urbano.",
+        "Pessoas afetadas indiretamente (observadores e ouvintes).",
+        "Profissionais de emergência, resgate e bombeiros militares."
+      ],
+      "correctAnswer": 4
+    }
+  ]
+}
