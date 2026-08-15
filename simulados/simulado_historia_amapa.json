@@ -1,0 +1,366 @@
+{
+  "id": "simulado_historia_amapa",
+  "title": "Simulado - História dos Bombeiros no Amapá",
+  "questions": [
+    {
+      "id": 1,
+      "text": "O início dos trabalhos de combate a incêndios no Amapá se confunde com a criação de qual organização, em 17 de fevereiro de 1944?",
+      "options": [
+        "Corpo Voluntário da ICOMI",
+        "Guarda Territorial",
+        "Polícia Militar do Amapá",
+        "Grupamento de Incêndio",
+        "Defesa Civil do Território"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "text": "Qual Governador criou a Guarda Territorial no Amapá em 1944, como medida para estruturar a segurança pública?",
+      "options": [
+        "Ivanhoé Gonçalves Martins",
+        "Janary Gentil Nunes",
+        "Alberto Dantas",
+        "José Furtado de Souza Júnior",
+        "Lourival Bemvenuto Silva"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "text": "Além do policiamento e do combate a incêndios, quais outros serviços básicos de atendimento à população a Guarda Territorial prestava?",
+      "options": [
+        "Serviços portuários e alfandegários.",
+        "Carpintaria, sapataria, pintura de prédios públicos e organização de enterros.",
+        "Serviços meteorológicos e de navegação fluvial.",
+        "Cobrança de impostos e emissão de moedas.",
+        "Gestão exclusiva do fornecimento de água e energia."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "text": "Em qual ano teve início o primeiro serviço organizado de combate a incêndios no Amapá com a criação dos CVDIs?",
+      "options": [
+        "1944",
+        "1960",
+        "1967",
+        "1975",
+        "1992"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "text": "A sigla CVDIs significa Corpos Voluntários de Defesa Contra Incêndios. Por qual empresa eles foram criados e onde foram instalados?",
+      "options": [
+        "Criados pela Vigilex e instalados em Macapá e Laranjal do Jari.",
+        "Criados pela Guarda Territorial e instalados no Oiapoque.",
+        "Criados pela ICOMI e instalados em Santana e Serra do Navio.",
+        "Criados pelo Ministério do Interior e instalados na capital.",
+        "Criados pela Prefeitura de Macapá e instalados no centro comercial."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "text": "Quem foi o responsável por treinar os voluntários dos CVDIs da ICOMI para combater incêndios e realizar salvamentos?",
+      "options": [
+        "Lourival Bemvenuto Silva",
+        "Jean Pierre Klotz",
+        "Alberto Dantas",
+        "Janary Gentil Nunes",
+        "José Severino Dias"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "text": "A qual empresa pertencia Jean Pierre Klotz, o treinador dos voluntários dos CVDIs no Amapá?",
+      "options": [
+        "ICOMI",
+        "Vigilex-Alarme e Proteção Ltda",
+        "Merryweather & Sons",
+        "Companhia de Urbanos",
+        "Arsenal da Marinha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "text": "Em 08 de setembro de 1967, o Governador do Território, Ivanhoé Gonçalves Martins, solicitou a vinda de qual Oficial do Corpo de Bombeiros de Brasília para estruturar a corporação local?",
+      "options": [
+        "CEL BM José Furtado de Souza Júnior",
+        "Major BM Lourival Bemvenuto Silva",
+        "Capitão João Batista de Castro",
+        "CEL PM Alberto Dantas",
+        "Tenente Manoel José Branco"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "text": "O que o Governador Ivanhoé Gonçalves Martins determinou que o prefeito de Macapá fizesse durante a estruturação da corporação em outubro de 1967?",
+      "options": [
+        "Que paralisasse as obras na Rua Cândido Mendes.",
+        "Que comprasse imediatamente viaturas da Inglaterra.",
+        "Que continuasse as obras do Quartel do Corpo de Bombeiros Municipal na Av. Padre Júlio Maria Lombaerd.",
+        "Que dissolvesse os CVDIs da ICOMI.",
+        "Que contratasse apenas voluntários civis sem remuneração."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "text": "Em 30 de outubro de 1967, o Major BM Lourival Bemvenuto Silva foi nomeado pelo Governador para qual cargo, com a incumbência de organizar o novo Corpo de Bombeiros?",
+      "options": [
+        "Comandante do Corpo de Bombeiros do Distrito Federal",
+        "Diretor da Vigilex",
+        "Secretário de Segurança Pública do Território",
+        "Comandante da Guarda Territorial",
+        "Chefe de Polícia Civil"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "text": "Em 17 de novembro de 1967, foi baixado o Decreto nº 50 do Território Federal do Amapá. O que esse decreto efetivou e por que a data é considerada o marco de criação do primeiro serviço organizado?",
+      "options": [
+        "Criou o CBMAP autônomo.",
+        "Criou o Corpo de Bombeiros Voluntários e determinou a instalação de hidrantes na nova sede.",
+        "Transferiu a sede da corporação para Santana.",
+        "Tornou obrigatório o uso do sistema Gamewell no Amapá.",
+        "Desvinculou o Corpo de Bombeiros da PM/AP."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "text": "Em 24 de novembro de 1967, um grande incêndio destruiu boa parte da zona comercial de Macapá. Em qual loja o incêndio teve início com a explosão de barris de pólvora?",
+      "options": [
+        "A Credilar",
+        "Livraria José Fernandes de Souza",
+        "Flor da Síria",
+        "Armazém do Rosário",
+        "Companhia de Urbanos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 13,
+      "text": "No incêndio da loja Flor da Síria em 1967, aproximadamente quantos barris de pólvora explodiram?",
+      "options": [
+        "10",
+        "20",
+        "40",
+        "100",
+        "150"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "text": "Quais foram as principais dificuldades enfrentadas pelo recém-criado Grupamento no combate ao incêndio comercial de 1967 em Macapá?",
+      "options": [
+        "Falta de pessoal e greve dos voluntários.",
+        "Falhas nas mangueiras, falta de equipamentos adequados e falta de água (inclusive no igarapé com maré baixa).",
+        "O trânsito intenso de veículos e falta de combustível nas viaturas.",
+        "O excesso de chuva que impedia a visualização das chamas.",
+        "As viaturas importadas que quebraram a caminho da ocorrência."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "text": "Após o trágico incêndio de 1967, o Governo do Território e a prefeitura criaram oficialmente o GRUCI. O que significa esta sigla?",
+      "options": [
+        "Grupo de Resgate e Urgência Civil",
+        "Guarda de Risco e Unidade de Combate",
+        "Grupamento de Combate a Incêndios",
+        "Grupo Rápido de Uso Contra Incêndios",
+        "Grupamento Regional de Unidades Contra Incêndio"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "text": "Para a formação do GRUCI após o incêndio de 1967, quantos funcionários que já desempenhavam a atividade na Guarda Territorial foram selecionados após rigorosa seleção?",
+      "options": [
+        "10",
+        "20",
+        "32",
+        "50",
+        "168"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "text": "Em que data (mês e ano) o prédio da Corporação do GRUCI foi inaugurado, efetivando a implantação do serviço de combate a incêndio no Amapá no atual endereço do Comando Geral?",
+      "options": [
+        "Novembro de 1967",
+        "Fevereiro de 1944",
+        "Julho de 1968",
+        "Setembro de 1975",
+        "Julho de 1992"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "text": "Qual foi a mudança na subordinação dos bombeiros (então GRUCI) a partir da Lei nº 6.270, de 26 de novembro de 1975?",
+      "options": [
+        "Passaram a ser independentes sob o nome de CBMAP.",
+        "Passaram a ser subordinados à Guarda Municipal de Macapá.",
+        "Foram extintos e substituídos por voluntários.",
+        "Passaram a ser subordinados diretamente ao Governo do Território e comandados pela Polícia Militar do Amapá (PM/AP).",
+        "Passaram a ser chefiados exclusivamente por civis aprovados em concurso."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 19,
+      "text": "Quando subordinados à PM/AP a partir de 1975, os componentes do serviço de bombeiros passaram a compor uma nova estrutura chamada de:",
+      "options": [
+        "Defesa Civil Territorial",
+        "Grupamento de Incêndio (GI)",
+        "Batalhão de Sapadores",
+        "Corpo de Bombeiros Voluntários",
+        "Esquadrão Flor da Síria"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "text": "O Corpo de Bombeiros Militar do Amapá (CBMAP) foi finalmente criado com autonomia funcional e administrativa, desvinculando-se da Polícia Militar, no ano de:",
+      "options": [
+        "1967",
+        "1975",
+        "1988",
+        "1992",
+        "2002"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "text": "Qual o número da Lei de 09 de Julho de 1992 que criou oficialmente o CBMAP autônomo?",
+      "options": [
+        "Lei nº 6.270",
+        "Decreto nº 50",
+        "Lei nº 025",
+        "Lei nº 1.775",
+        "Decreto nº 2.587"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "text": "Quem foi o primeiro comandante do CBMAP após sua desvinculação da Polícia Militar em 1992?",
+      "options": [
+        "CEL BM José Furtado de Souza Júnior",
+        "Major BM Lourival Bemvenuto Silva",
+        "CEL PM Alberto Dantas",
+        "Governador Janary Gentil Nunes",
+        "Governador Ivanhoé Gonçalves Martins"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "text": "Em que ano o Corpo de Bombeiros Militar do Amapá passou a ser comandado por um oficial originário do próprio quadro de bombeiros (primeiro comandante bombeiro)?",
+      "options": [
+        "1992",
+        "1995",
+        "1998",
+        "2002",
+        "2010"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 24,
+      "text": "Quem foi o primeiro oficial Bombeiro Militar a assumir o comando do CBMAP em 2002?",
+      "options": [
+        "CEL BM José Furtado de Souza Júnior",
+        "Major BM Lourival Bemvenuto Silva",
+        "CEL PM Alberto Dantas",
+        "Major Antonio Maria de Albuquerque",
+        "Capitão João Batista de Castro"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "text": "De acordo com a história, onde funcionava antigamente a loja Flor da Síria, que foi o estopim de grandes mudanças no combate a incêndio em Macapá?",
+      "options": [
+        "Na Praça Clóvis Bevilácqua.",
+        "Onde até alguns anos atrás funcionava a loja A CREDILAR, na rua Cândido Mendes.",
+        "No atual endereço do Quartel do Comando Geral.",
+        "Próximo ao porto da ICOMI, em Santana.",
+        "Ao lado da Fortaleza de São José de Macapá."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "text": "Quantos pontos comerciais foram atingidos pelo grande incêndio na loja Flor da Síria em 1967?",
+      "options": [
+        "Apenas 1",
+        "10",
+        "22",
+        "32",
+        "40"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 27,
+      "text": "Durante o incêndio de 1967 em Macapá, o centro comercial atingido, localizado na Rua Cândido Mendes, era constituído na sua quase totalidade por construções de:",
+      "options": [
+        "Alvenaria",
+        "Taipa de pilão",
+        "Madeira",
+        "Tijolos aparentes",
+        "Concreto armado"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 28,
+      "text": "Sobre o relatório entregue pelo Major Lourival em 21 de outubro de 1967, qual foi sua principal consequência inicial?",
+      "options": [
+        "A importação de caixas de alarme Gamewell.",
+        "A extinção imediata da Guarda Territorial.",
+        "A criação do GRUCI e o pedido de autonomia total do Estado.",
+        "A sugestão e providências para a criação do GRUCI.",
+        "O fim da parceria com a empresa Vigilex."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 29,
+      "text": "O que os voluntários do CVDI faziam durante a noite para garantir a proteção de Santana e Serra do Navio?",
+      "options": [
+        "Dormiam em casa e aguardavam os sinos tocarem.",
+        "Ficavam sob a jurisdição do Exército Brasileiro.",
+        "Um grupo ficava de plantão para as possíveis eventualidades.",
+        "Realizavam patrulhas navais ao longo do Rio Amazonas.",
+        "Eram dispensados, pois o risco de incêndio à noite era considerado nulo."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 30,
+      "text": "A Exposição de Motivos encaminhada ao Ministério do Interior em 30 de outubro de 1967 visava:",
+      "options": [
+        "A captação de recursos para a construção de praças.",
+        "Propor a criação do Corpo de Bombeiros, especificando efetivo e materiais.",
+        "Extinguir os Corpos Voluntários da ICOMI por ilegalidade.",
+        "Subordinar a segurança do Amapá diretamente a Brasília.",
+        "Solicitar bombas a vapor do Rio de Janeiro."
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

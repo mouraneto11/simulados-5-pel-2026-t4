@@ -1,0 +1,366 @@
+{
+  "id": "simulado_historia_brasil",
+  "title": "Simulado - História dos Bombeiros no Brasil",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Em 1710, um corsário francês empreendeu um ataque que destruiu totalmente a alfândega do Rio de Janeiro, seguido por um grande incêndio. Quem era esse corsário?",
+      "options": [
+        "Jean Pierre Klotz",
+        "Conde da Cunha",
+        "Jean Françoeis Duclerc",
+        "Estácio de Sá",
+        "Marcelino Gerard"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "text": "Em 1732, um grande incêndio destruiu considerável parte de qual importante edificação no Rio de Janeiro?",
+      "options": [
+        "Palácio Imperial",
+        "Mosteiro de São Bento",
+        "Arsenal da Marinha",
+        "Recolhimento da Nossa Senhora do Porto",
+        "Igreja de São Francisco"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "text": "Qual medida o Vice-Rei Luís de Vasconcelos determinou em 1788 para tentar evitar o pânico ('atropelamento') durante os incêndios noturnos no Rio de Janeiro?",
+      "options": [
+        "Toque de recolher obrigatório.",
+        "A criação de um corpo de vigias noturnos.",
+        "Que os cidadãos iluminassem a frente de suas casas.",
+        "A proibição do uso de lamparinas de óleo.",
+        "O repicar ininterrupto dos sinos das igrejas."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "text": "Antes da criação de um serviço oficial, quando irrompia um incêndio no Rio de Janeiro, a extinção era empiricamente realizada por:",
+      "options": [
+        "Sapadores do Exército e engenheiros.",
+        "Milícias, aguadeiros e voluntários.",
+        "Batalhões de infantaria portuguesa.",
+        "Mergulhadores e estivadores.",
+        "Guardas municipais e escravos alforriados."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "text": "O Alvará Régio de 12 de agosto de 1797 determinou que a extinção de incêndios na cidade do Rio de Janeiro passasse a ser responsabilidade de qual órgão?",
+      "options": [
+        "Arsenal de Guerra",
+        "Companhia de Urbanos",
+        "Repartição de Obras Públicas",
+        "Arsenal da Marinha",
+        "Casa de Correção"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "text": "Qual foi o motivo principal para a escolha do Arsenal da Marinha como o órgão responsável pela extinção de incêndios em 1797?",
+      "options": [
+        "Eles possuíam o maior orçamento do Império.",
+        "A experiência que os marinheiros tinham em apagar fogo em embarcações.",
+        "Eles eram os únicos que possuíam cavalos para tração.",
+        "A ordem direta do Imperador Dom Pedro II.",
+        "A localização central do Arsenal na cidade."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "text": "Como o sinal de incêndio era popularmente dado no Rio de Janeiro antes da adoção de tecnologias de alarme?",
+      "options": [
+        "Por tiros de canhão.",
+        "Por sinais de fumaça colorida.",
+        "Por cornetas militares.",
+        "Pelos sinos das igrejas.",
+        "Através de telégrafos em todas as ruas."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "text": "O Decreto Imperial n. 1.775, que criou o Corpo Provisório de Bombeiros da Corte, foi promulgado em 2 de julho de 1856 por qual governante?",
+      "options": [
+        "Vice-Rei Luís de Vasconcelos",
+        "Dom Pedro I",
+        "Conde da Cunha",
+        "Visconde de Inhaúma",
+        "Imperador Dom Pedro II"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 9,
+      "text": "Quem foi nomeado o primeiro comandante do Corpo Provisório de Bombeiros da Corte em 1856?",
+      "options": [
+        "Almirante Joaquim José Inácio",
+        "Major João Batista de Castro Moraes Antas",
+        "Alferes José Severino Dias",
+        "Tenente Alfredo José Martins de Araújo",
+        "Major Antonio Maria de Albuquerque O'Camel Jersey"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "text": "No Corpo de Bombeiros do Rio de Janeiro, em 1870, qual instrumento substituiu o apito para a transmissão de sinais operacionais?",
+      "options": [
+        "O rádio comunicador",
+        "O telefone",
+        "O megafone",
+        "A corneta militar",
+        "O sino manual"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "text": "Em 1877, o Quartel do Corpo de Bombeiros no Rio de Janeiro foi pioneiro na instalação de qual inovação tecnológica para comunicação?",
+      "options": [
+        "O primeiro telégrafo sem fio.",
+        "O primeiro rádio VHF.",
+        "O primeiro aparelho telefônico da cidade.",
+        "O sistema Gamewell importado dos EUA.",
+        "O primeiro computador mainframe."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "text": "Antes do Decreto n. 7.766 de 1880, como os oficiais do Corpo de Bombeiros eram tratados durante o serviço com outras autoridades no Rio de Janeiro?",
+      "options": [
+        "Eram tratados como Generais do Império.",
+        "Tinham precedência sobre oficiais da Marinha.",
+        "Eram tratados como soldados, pois suas fardas não possuíam insígnias de cargo.",
+        "Usavam trajes civis, não sendo reconhecidos.",
+        "Recebiam tratamento diplomático exclusivo."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 13,
+      "text": "O que ocorreu em 1º de junho de 1913, marcando uma nova era no Corpo de Bombeiros da Capital Federal (Rio de Janeiro)?",
+      "options": [
+        "A compra da primeira bomba a vapor.",
+        "O fim oficial dos incêndios em áreas portuárias.",
+        "A criação da Guarda Territorial.",
+        "O advento do motor a explosão, iniciando a tração mecânica.",
+        "A adoção de fardamentos camuflados."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "text": "O primeiro incêndio com registro na então capital da Província de São Paulo ocorreu em dezembro de 1850, e foi combatido com uma bomba manual emprestada por:",
+      "options": [
+        "Jean Françoeis Duclerc",
+        "Van Der Heyden",
+        "Marcelino Gerard",
+        "Joaquim José Inácio",
+        "José Severino Dias"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "text": "O aviso de incêndios em São Paulo no século XIX era legalmente reforçado pelo Código sobre Prevenção de Incêndios, que obrigava sob pena de prisão e multa:",
+      "options": [
+        "Que os civis comprassem extintores de incêndio.",
+        "Que sineiros e sacristãos repicassem os sinos.",
+        "Que os comerciantes fechassem suas portas.",
+        "Que todos corressem com baldes d'água.",
+        "Que o exército fosse notificado antes dos bombeiros."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "text": "Qual evento em 16 de fevereiro de 1880 serviu de estopim definitivo para a criação de uma Seção de Bombeiros para a capital de São Paulo?",
+      "options": [
+        "A explosão de uma barrica de pólvora na Rua do Comércio.",
+        "O incêndio na livraria José Fernandes de Souza.",
+        "Um incêndio que consumiu parte da Faculdade de Direito e da igreja de São Francisco.",
+        "O ataque de um navio corsário na costa paulista.",
+        "A destruição total da Companhia de Urbanos."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "text": "A Seção de Bombeiros de São Paulo, criada em 1880, foi anexada inicialmente a qual instituição?",
+      "options": [
+        "Arsenal da Marinha",
+        "Polícia Civil",
+        "Companhia de Urbanos",
+        "Exército Nacional",
+        "Secretaria de Obras Públicas"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "text": "Quem foi efetivamente nomeado o primeiro comandante da Seção de Bombeiros de São Paulo em 24 de julho de 1880?",
+      "options": [
+        "Tenente Manoel José Branco",
+        "Major Antonio Maria de Albuquerque O'Camel Jersey",
+        "Alferes José Severino Dias",
+        "Tenente Alfredo José Martins de Araújo",
+        "Brigadeiro Machado de Oliveira"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "text": "Para iniciar os trabalhos da Seção de Bombeiros em São Paulo, o Chefe de Polícia trouxe do Rio de Janeiro duas bombas vienenses e alguns homens. Por que essas bombas eram consideradas importantes?",
+      "options": [
+        "Porque funcionavam a motor de explosão.",
+        "Porque podiam retirar água salgada do mar.",
+        "Porque tinham força para projetar água ao telhado de prédios de 2 andares (8 a 9 metros).",
+        "Porque eram as primeiras acopladas a veículos Mercedes.",
+        "Porque dispensavam a necessidade de mangueiras."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 20,
+      "text": "O que ocorreu em novembro de 1886 após a visita do Imperador Dom Pedro II ao quartel de bombeiros de São Paulo?",
+      "options": [
+        "Ele condecorou todos os soldados com medalhas de ouro.",
+        "Ele dissolveu a corporação transferindo-a para o Rio de Janeiro.",
+        "Ele elogiou o sistema de hidrantes subterrâneos recém-inaugurado.",
+        "Ele disse que a corporação estava muito atrasada, o que gerou melhorias e a chegada de uma bomba a vapor em 1888.",
+        "Ele autorizou a compra do sistema Gamewell."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "text": "Em 1891, o efetivo do Corpo de Bombeiros de São Paulo foi dissolvido e reorganizado com 240 homens melhor selecionados por qual oficial de engenharia rígido e disciplinado?",
+      "options": [
+        "José Severino Dias",
+        "Manoel José Branco",
+        "Antonio Maria de Albuquerque O'Camel Jersey",
+        "Alfredo José Martins de Araújo",
+        "Francisco Marcelino de Souza Aguiar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "text": "Em 1911, São Paulo inaugurou um sistema estadunidense de alarme que contava com 146 caixas. Qual era o nome desse sistema popular que funcionou por mais de 4 décadas?",
+      "options": [
+        "Sistema Greenwich",
+        "Sistema Merryweather",
+        "Sistema Gamewell",
+        "Sistema Saurer",
+        "Sistema Morse"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "text": "O ano de 1921 em São Paulo marcou o fim de qual prática no Corpo de Bombeiros?",
+      "options": [
+        "O uso de mangueiras de lona.",
+        "Todo o material de tração animal foi desativado.",
+        "O uso de sinos para alerta.",
+        "A contratação de voluntários.",
+        "O policiamento ostensivo."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "text": "Em 1932, a mobilização da Revolução Constitucionalista gerou um fato histórico nas fileiras do Corpo de Bombeiros de São Paulo. Qual foi?",
+      "options": [
+        "A adoção do telefone 193.",
+        "O abandono total do quartel pelas tropas.",
+        "A formação do primeiro contingente feminino voluntário do Brasil.",
+        "A criação do primeiro serviço de resgate aéreo.",
+        "A subordinação definitiva ao Exército Brasileiro."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "text": "Quando a expansão do Corpo de Bombeiros de São Paulo para o interior do estado teve início através de acordos com municipalidades?",
+      "options": [
+        "1880",
+        "1911",
+        "1932",
+        "1943",
+        "1955"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 26,
+      "text": "Em 1955, qual tecnologia foi inaugurada em São Paulo, facilitando a comunicação entre viaturas e quartel para direcionar melhor os atendimentos?",
+      "options": [
+        "A rede de rádio.",
+        "O telégrafo sem fio.",
+        "O sistema Gamewell.",
+        "O GPS.",
+        "A internet."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "text": "Em qual ano o número de emergência 193 foi finalmente adotado pelo Corpo de Bombeiros de São Paulo?",
+      "options": [
+        "1956",
+        "1964",
+        "1972",
+        "1979",
+        "1990"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 28,
+      "text": "Os catastróficos incêndios que ocorreram na década de 1970 em São Paulo motivaram a importação de autobombas, autoescadas e autoplataformas. Em quais edifícios ocorreram esses incêndios?",
+      "options": [
+        "Edifício Itália e Edifício Copan.",
+        "Edifício Andraus (1972) e Edifício Joelma (1974).",
+        "Edifício Martinelli e Edifício Banespa.",
+        "Edifício Wilton Paes de Almeida e Museu Nacional.",
+        "Edifício Avenida Central e Gran Circus Norte-Americano."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "text": "Visando melhorar o atendimento pré-hospitalar, o que o Corpo de Bombeiros de São Paulo implantou em 1990?",
+      "options": [
+        "O sistema de Resgate, contando com pessoal especializado e apoio de helicópteros.",
+        "O SAMU civil em todo o estado.",
+        "A Defesa Civil estadual.",
+        "As caixas de alarme telefônicas em todas as esquinas.",
+        "O sistema de voluntariado remunerado na capital."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "text": "Qual foi o órgão público que, segundo o Decreto Imperial n. 8.337 de 1881, poderia ter seu efetivo de bombeiros empregado em caso de guerra como Corpo de Sapadores ou Pontoneiros?",
+      "options": [
+        "Companhia de Urbanos de São Paulo.",
+        "Arsenal da Marinha do Rio de Janeiro.",
+        "Corpo de Bombeiros do Rio de Janeiro.",
+        "Guarda Territorial do Amapá.",
+        "Polícia Militar de Santa Catarina."
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "id": "simulado_historia_mundo",
+  "title": "Simulado - História dos Bombeiros no Mundo",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Segundo Guimarães Costa (1996), a Evolução Histórica da Instituição Militar acompanha modificações impostas por quais ordens através dos tempos?",
+      "options": [
+        "Exclusivamente ordens tecnológicas e militares.",
+        "Ordens culturais, econômicas, políticas e administrativas.",
+        "Somente ordens jurídicas e filosóficas.",
+        "Ordens climáticas e geográficas.",
+        "Ordens imperiais e religiosas."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "text": "No ano de 2.969 a.C., quem instituiu o primeiro código de polícia, regendo que a ordem seria imposta através do medo?",
+      "options": [
+        "Faraó Quéops",
+        "Faraó Menés",
+        "Imperador Otávio",
+        "César Augusto",
+        "Rômulo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "text": "Entre os hebreus, a instituição policial da Antiguidade se organizava dividindo qual cidade em jurisdições policiais?",
+      "options": [
+        "Roma",
+        "Alexandria",
+        "Jerusalém",
+        "Atenas",
+        "Babilônia"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "text": "Na Roma de Numa, sucessor de Rômulo, foram instituídos magistrados eleitos pelo povo conhecidos como:",
+      "options": [
+        "Curadores",
+        "Pretorianos",
+        "Questores",
+        "Vigiles",
+        "Senadores"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "text": "Sob o controle de Marco Vipsânia Agripina, Roma foi dividida em distritos policiais entregues a delegados chamados de:",
+      "options": [
+        "Questores",
+        "Vigias noturnos",
+        "Vigiles",
+        "Curadores",
+        "Magistrados"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "text": "Qual grupo romano é considerado, na história, como o primeiro 'corpo de bombeiros', tendo a atribuição de proteger a cidade contra incêndios?",
+      "options": [
+        "Os questores",
+        "Os curadores",
+        "Os vigias noturnos",
+        "As legiões romanas",
+        "Os guardas pretorianos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "text": "No século XVII, com a Revolução Cultural, a polícia ressurgiu em termos técnico-científicos. Quais países foram precursores dessa organização?",
+      "options": [
+        "Espanha, Portugal e Itália",
+        "Alemanha, França e Inglaterra",
+        "Grécia, Roma e Egito",
+        "Holanda, Suécia e Rússia",
+        "Estados Unidos, Brasil e Japão"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "text": "A primeira grande descoberta da humanidade no domínio do fogo ocorreu quando os primeiros seres humanos conseguiram produzi-lo a partir de:",
+      "options": [
+        "Fricção de galhos secos",
+        "Concentração de luz solar",
+        "Fricção (atrito) entre duas pedras de sílex",
+        "Erupções vulcânicas",
+        "Faíscas de tempestades elétricas"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "text": "No ano 22 a.C., após um grande incêndio devastar Roma, qual imperador decidiu criar o primeiro corpo de bombeiros que se conhece na história?",
+      "options": [
+        "Júlio César",
+        "César Augusto",
+        "Nero",
+        "Otávio",
+        "Numa"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "text": "Como eram chamados os integrantes do corpo de bombeiros criado em 22 a.C. em Roma?",
+      "options": [
+        "Questores",
+        "Curadores",
+        "Vigiles",
+        "Guarda Bombas",
+        "Sapadores"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "text": "Durante a Idade Média, como os incêndios eram conceitualmente vistos pela sociedade?",
+      "options": [
+        "Como uma oportunidade de renovação arquitetônica.",
+        "Como crimes puníveis com a morte.",
+        "Como um fenômeno controlável por magia.",
+        "Como um dano inevitável.",
+        "Como a principal arma de guerra entre feudos."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 12,
+      "text": "Em 1666, na Grã-Bretanha, surgiram as brigadas de seguros contra incêndios. Qual evento destruiu grande parte da capital inglesa nesse mesmo ano e impulsionou a formação de brigadas particulares?",
+      "options": [
+        "O grande incêndio de Boston.",
+        "O grande incêndio de Londres.",
+        "A Revolução Industrial.",
+        "A invenção da bomba de incêndio.",
+        "A Primeira Guerra Mundial."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "text": "No século XVIII, a invenção da 'bomba de incêndio' e da 'mangueira' abriu uma nova era na luta contra o fogo. Quem foi o inventor dessas tecnologias?",
+      "options": [
+        "Jean Françoeis Duclerc",
+        "Jean Pierre Klotz",
+        "Van Der Heyden",
+        "Marcelino Gerard",
+        "Merryweather"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "text": "Como eram fabricadas as primeiras mangueiras de incêndio inventadas no século XVIII?",
+      "options": [
+        "Lona e borracha",
+        "Couro, com quinze metros de comprimento e uniões de bronze",
+        "Tecido de algodão impermeabilizado",
+        "Cânhamo trançado",
+        "Tripas de animais e uniões de ferro"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "text": "A aparição das bombas de incêndio motivou a criação de uma companhia militarizada em Paris (França), formada por:",
+      "options": [
+        "Vinte bombeiros voluntários.",
+        "Trinta vigias noturnos.",
+        "Sessenta guarda bombas.",
+        "Cem oficiais de artilharia.",
+        "Duzentos sapadores."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "text": "Onde foi fundado, em 1679, o primeiro Departamento Profissional Municipal Contra Incêndios na América do Norte, empregando um chefe e 12 bombeiros?",
+      "options": [
+        "Nova Iorque",
+        "Chicago",
+        "Cincinnati",
+        "Boston",
+        "Washington"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "text": "Em Massachusetts, qual era a exigência básica imposta aos moradores para a defesa contra o fogo em suas casas?",
+      "options": [
+        "Ter sempre uma caixa de areia disponível.",
+        "Disponibilizar 5 latas (tipo balde) em cada casa.",
+        "Possuir uma mangueira de couro.",
+        "Ter um sino na porta para alarme.",
+        "Pagar uma taxa mensal para a brigada."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "text": "Em 1º de abril de 1853, em Cincinnati, foi ativado um serviço profissional contra incêndios que utilizava uma nova tecnologia de tração e combate. Qual era?",
+      "options": [
+        "Bombas a motor de explosão.",
+        "Bombas elétricas portáteis.",
+        "Bombas a vapor em veículos tracionados por cavalos.",
+        "Veículos automotores movidos a gasolina.",
+        "Sistemas de hidrantes fixos e pressurizados."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "text": "Quando surgiram as primeiras escolas de bombeiros para transformação dos quadros profissionais nos EUA?",
+      "options": [
+        "Em 1679 em Boston e 1715 em Nova Iorque.",
+        "Em 1853 em Cincinnati e 1880 em Washington.",
+        "Em 1889 em Boston e em 1914 em Nova Iorque.",
+        "Em 1910 em Nova Iorque e 1921 em Boston.",
+        "Durante a Primeira Guerra Mundial."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 20,
+      "text": "Durante as 1ª e 2ª Guerras Mundiais, qual prática se tornou comum e consolidou-se na rotina dos bombeiros devido aos bombardeios?",
+      "options": [
+        "Jornadas curtas de 6 horas.",
+        "Trabalho exclusivamente voluntário e sem remuneração.",
+        "O uso de prisioneiros de guerra no combate.",
+        "Jornada de até 24 horas seguidas de trabalho.",
+        "Suspensão do combate a incêndios não-militares."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "text": "No Brasil, a primeira corporação de combate ao fogo no território Barriga Verde (SC) foi criada no sistema de voluntários em 1898. Em qual cidade?",
+      "options": [
+        "Florianópolis",
+        "Blumenau",
+        "Joinville",
+        "Chapecó",
+        "Criciúma"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "text": "Ainda em Santa Catarina, quase trinta anos depois da primeira corporação voluntária, surgiu o modelo militar em 1926. Em qual cidade?",
+      "options": [
+        "Joinville",
+        "Itajaí",
+        "Lages",
+        "Florianópolis",
+        "Tubarão"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 23,
+      "text": "Segundo o material, como se diferencia o modelo Comunitário ou Misto no Brasil?",
+      "options": [
+        "O bombeiro é federal com apoio municipal.",
+        "O bombeiro é estadual, com a parceria dos municípios, tendo participação obrigatória de voluntários junto com os militares.",
+        "É mantido exclusivamente por associações locais sem recursos estatais.",
+        "Todos os bombeiros são civis pagos pelas seguradoras.",
+        "É um modelo onde apenas militares atuam, mas recebem doações comunitárias."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "text": "Uma característica peculiar dos Bombeiros Voluntários de Joinville apontada no texto é que:",
+      "options": [
+        "Não possuem nenhum vínculo com a comunidade.",
+        "Atuam apenas em incêndios florestais.",
+        "Diferem de outros modelos voluntários por terem parte do efetivo remunerado.",
+        "São chefiados por oficiais do Exército Brasileiro.",
+        "Não aceitam recursos públicos ou subvenções."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "text": "Uma desvantagem citada sobre o modelo de bombeiro civil ou voluntário independente é:",
+      "options": [
+        "A falta de uma estrutura superior para dar suporte técnico aos comandantes.",
+        "O excesso de interferência militar em suas atividades.",
+        "A proibição legal de utilizar viaturas com sirene.",
+        "A obrigação de repassar todo o orçamento ao Estado.",
+        "A ausência completa de voluntários na corporação."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "text": "A evolução econômica e tecnológica expandiu a área de atuação do bombeiro, que deixou de atuar apenas em incêndios. Qual das atividades abaixo também passou a ser rotina das corporações modernas?",
+      "options": [
+        "Policiamento ostensivo",
+        "Atendimento pré-hospitalar, salvamentos e prevenção",
+        "Coleta de impostos municipais",
+        "Investigação criminal",
+        "Controle do tráfego aéreo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "text": "A profissionalização do serviço de bombeiro, exigindo dedicação exclusiva, é considerada no texto como:",
+      "options": [
+        "Um erro histórico que encareceu o serviço.",
+        "A própria evolução natural desses serviços diante da complexidade dos riscos.",
+        "Uma imposição das companhias de seguro contra a vontade popular.",
+        "Um modelo que fracassou no Japão e EUA.",
+        "Uma estratégia exclusiva de cidades com menos de 10 mil habitantes."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "text": "Nos países europeus, EUA e Japão, a criação dos corpos voluntários em pequenas cidades geralmente ocorre:",
+      "options": [
+        "Na ilegalidade e sem regulação.",
+        "Apenas em tempos de guerra.",
+        "Regulada por lei, com estrutura definida e apoio de entes estatais.",
+        "Financiada unicamente por dízimos religiosos.",
+        "Através de sorteio obrigatório entre os moradores."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 29,
+      "text": "Os bombeiros pagos oficiais, conforme criados inicialmente nas grandes cidades europeias, caracterizavam-se por:",
+      "options": [
+        "Cumprir serviço temporário apenas no verão.",
+        "Estar sujeitos a regulamentos militares e manter plantão permanente em quartéis estratégicos.",
+        "Receber pagamentos diretamente das vítimas dos incêndios.",
+        "Possuir quartéis apenas nas áreas rurais.",
+        "Trabalharem apenas sob demanda, sem rotina diária."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "text": "O que provocou um incremento incalculável na rotina dos bombeiros, tornando necessária a capacitação especial além do combate ao fogo?",
+      "options": [
+        "O fim das guerras mundiais.",
+        "A evolução da sociedade e a inclusão da prevenção e assistência a outras emergências.",
+        "A extinção das polícias militares.",
+        "O surgimento da bomba d'água manual.",
+        "A criação de companhias de seguro em Londres."
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

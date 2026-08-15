@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cfsd-simulados-v5';
+const CACHE_NAME = 'cfsd-simulados-v6';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -9,6 +9,9 @@ const ASSETS_TO_CACHE = [
     './simulados/salvamento_aquatico.json',
     './simulados/simulado_lri_amapa_10.json',
     './simulados/simulado_defesa_civil_amapa.json',
+    './simulados/simulado_historia_mundo.json',
+    './simulados/simulado_historia_brasil.json',
+    './simulados/simulado_historia_amapa.json',
     './icon-192.png',
     './icon-512.png'
 ];
