@@ -29,15 +29,19 @@ const finalScoreText = document.getElementById('finalScoreText');
 const correctCountEl = document.getElementById('correctCount');
 const incorrectCountEl = document.getElementById('incorrectCount');
 
-const simuladoSelect = document.getElementById('simuladoSelect');
 const simuladoTitle = document.getElementById('simuladoTitle');
+const simuladoSearch = document.getElementById('simuladoSearch');
+const simuladoList = document.getElementById('simuladoList');
+const simuladoPagination = document.getElementById('simuladoPagination');
+const simuladoPrevPage = document.getElementById('simuladoPrevPage');
+const simuladoNextPage = document.getElementById('simuladoNextPage');
+const simuladoPageInfo = document.getElementById('simuladoPageInfo');
 
 let allSimulados = [];
-
-// Variáveis para PWA
-const installBanner = document.getElementById('installBanner');
-const installBtn = document.getElementById('installBtn');
-let deferredPrompt;
+let selectedSimuladoId = null;
+let simuladoSearchQuery = '';
+let simuladoCurrentPage = 1;
+const SIMULADOS_PER_PAGE = 5;
 
 // Inicialização
 async function init() {
@@ -58,44 +62,148 @@ async function init() {
         );
 
         if (allSimulados && allSimulados.length > 0) {
-            populateSimuladosDropdown();
+            renderSimuladoList();
+
+            // Link único: ?simulado=<id> pré-seleciona o simulado ao abrir a página
+            const idFromUrl = new URLSearchParams(window.location.search).get('simulado');
+            if (idFromUrl && allSimulados.some(sim => sim.id === idFromUrl)) {
+                selectSimulado(idFromUrl, { updateUrl: false });
+            }
         } else {
+            simuladoList.innerHTML = '<div class="simulado-list-empty">Nenhum simulado encontrado.</div>';
             questionCountInfo.textContent = "Nenhum simulado encontrado.";
         }
     } catch (error) {
         console.error("Erro na inicialização:", error);
         questionCountInfo.textContent = "Erro ao carregar simulados (Verifique a pasta simulados/).";
-        simuladoSelect.innerHTML = '<option value="">Erro ao carregar</option>';
+        simuladoList.innerHTML = '<div class="simulado-list-empty">Erro ao carregar simulados.</div>';
     }
 }
 
-function populateSimuladosDropdown() {
-    simuladoSelect.innerHTML = '<option value="" disabled selected>Escolha o simulado...</option>';
-    allSimulados.forEach((sim, index) => {
-        const option = document.createElement('option');
-        option.value = index;
-        option.textContent = sim.title;
-        simuladoSelect.appendChild(option);
-    });
+function normalizeText(text) {
+    return text
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[̀-ͯ]/g, '');
 }
 
-simuladoSelect.addEventListener('change', (e) => {
-    const selectedIndex = e.target.value;
-    if (selectedIndex !== "") {
-        const selectedSimulado = allSimulados[selectedIndex];
-        questions = selectedSimulado.questions;
-        simuladoTitle.textContent = selectedSimulado.title;
-        
-        if (questions && questions.length > 0) {
-            questionCountInfo.textContent = `${questions.length} Questões`;
-            startBtn.disabled = false;
-        } else {
-            questionCountInfo.textContent = "Nenhuma questão encontrada neste simulado.";
-            startBtn.disabled = true;
-        }
+function getFilteredSimulados() {
+    if (!simuladoSearchQuery) return allSimulados;
+    const query = normalizeText(simuladoSearchQuery);
+    return allSimulados.filter(sim => normalizeText(sim.title).includes(query));
+}
+
+function getSimuladoLink(id) {
+    const url = new URL(window.location.href);
+    url.search = '';
+    url.searchParams.set('simulado', id);
+    return url.toString();
+}
+
+function renderSimuladoList() {
+    const filtered = getFilteredSimulados();
+    const totalPages = Math.max(1, Math.ceil(filtered.length / SIMULADOS_PER_PAGE));
+    simuladoCurrentPage = Math.min(simuladoCurrentPage, totalPages);
+
+    const start = (simuladoCurrentPage - 1) * SIMULADOS_PER_PAGE;
+    const pageItems = filtered.slice(start, start + SIMULADOS_PER_PAGE);
+
+    simuladoList.innerHTML = '';
+
+    if (pageItems.length === 0) {
+        simuladoList.innerHTML = '<div class="simulado-list-empty">Nenhum simulado encontrado.</div>';
     } else {
+        pageItems.forEach(sim => {
+            const item = document.createElement('div');
+            item.className = `simulado-item${sim.id === selectedSimuladoId ? ' selected' : ''}`;
+            item.dataset.id = sim.id;
+
+            item.innerHTML = `
+                <div class="simulado-item-info">
+                    <span class="simulado-item-title">${sim.title}</span>
+                    <span class="simulado-item-meta">${sim.questions.length} questões</span>
+                </div>
+                <div class="simulado-item-actions">
+                    <button type="button" class="icon-btn copy-link-btn" data-id="${sim.id}" title="Copiar link deste simulado">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    </button>
+                </div>
+            `;
+
+            item.addEventListener('click', () => selectSimulado(sim.id));
+            simuladoList.appendChild(item);
+        });
+    }
+
+    simuladoList.querySelectorAll('.copy-link-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            copySimuladoLink(btn.dataset.id, btn);
+        });
+    });
+
+    // Paginação
+    if (filtered.length > SIMULADOS_PER_PAGE) {
+        simuladoPagination.classList.remove('hidden');
+        simuladoPageInfo.textContent = `Página ${simuladoCurrentPage} de ${totalPages}`;
+        simuladoPrevPage.disabled = simuladoCurrentPage <= 1;
+        simuladoNextPage.disabled = simuladoCurrentPage >= totalPages;
+    } else {
+        simuladoPagination.classList.add('hidden');
+    }
+}
+
+async function copySimuladoLink(id, btn) {
+    const link = getSimuladoLink(id);
+    try {
+        await navigator.clipboard.writeText(link);
+    } catch (error) {
+        console.error('Falha ao copiar link:', error);
+        return;
+    }
+    btn.classList.add('copied');
+    setTimeout(() => btn.classList.remove('copied'), 1500);
+}
+
+function selectSimulado(id, { updateUrl = true } = {}) {
+    const selectedSimulado = allSimulados.find(sim => sim.id === id);
+    if (!selectedSimulado) return;
+
+    selectedSimuladoId = id;
+    questions = selectedSimulado.questions;
+    simuladoTitle.textContent = selectedSimulado.title;
+
+    if (questions && questions.length > 0) {
+        questionCountInfo.textContent = `${questions.length} Questões`;
+        startBtn.disabled = false;
+    } else {
+        questionCountInfo.textContent = "Nenhuma questão encontrada neste simulado.";
         startBtn.disabled = true;
     }
+
+    if (updateUrl) {
+        window.history.pushState({}, '', getSimuladoLink(id));
+    }
+
+    renderSimuladoList();
+}
+
+simuladoSearch.addEventListener('input', (e) => {
+    simuladoSearchQuery = e.target.value;
+    simuladoCurrentPage = 1;
+    renderSimuladoList();
+});
+
+simuladoPrevPage.addEventListener('click', () => {
+    if (simuladoCurrentPage > 1) {
+        simuladoCurrentPage--;
+        renderSimuladoList();
+    }
+});
+
+simuladoNextPage.addEventListener('click', () => {
+    simuladoCurrentPage++;
+    renderSimuladoList();
 });
 
 // Registro do Service Worker (PWA)
@@ -106,30 +214,6 @@ if ('serviceWorker' in navigator) {
             .catch(err => console.log('Falha ao registrar ServiceWorker:', err));
     });
 }
-
-// Interceptar o evento de instalação (PWA)
-window.addEventListener('beforeinstallprompt', (e) => {
-    // Previne o prompt padrão
-    e.preventDefault();
-    deferredPrompt = e;
-    // Exibe nosso banner customizado
-    installBanner.classList.remove('hidden');
-});
-
-// Ação do botão de instalar (PWA)
-installBtn.addEventListener('click', async () => {
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        if (outcome === 'accepted') {
-            console.log('Usuário aceitou a instalação do PWA');
-            installBanner.classList.add('hidden');
-        } else {
-            console.log('Usuário recusou a instalação do PWA');
-        }
-        deferredPrompt = null;
-    }
-});
 
 // Event Listeners dos botões
 startBtn.addEventListener('click', startQuiz);

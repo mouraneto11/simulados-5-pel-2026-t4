@@ -4,8 +4,8 @@ Aplicativo web progressivo (PWA) desenvolvido para treinamento e aplicação de 
 
 ## Funcionalidades
 
-*   **Progressive Web App (PWA):** Instalação direta no dispositivo móvel e suporte 100% offline (Cache-First). Essencial para uso em ambientes sem cobertura de internet.
-*   **Múltiplos Simulados:** Sistema flexível que permite a seleção e execução de diferentes provas através da estrutura de dados em `simulados.json`.
+*   **Progressive Web App (PWA):** Instalação direta no dispositivo móvel (via prompt nativo do navegador) e suporte 100% offline (Cache-First). Essencial para uso em ambientes sem cobertura de internet.
+*   **Múltiplos Simulados:** Cada prova vive em seu próprio arquivo JSON dentro de `simulados/`, com busca e paginação para localizar rapidamente o simulado desejado, e um link único e compartilhável por simulado (`?simulado=<id>`).
 *   **Cronômetro Operacional:** Contagem regressiva padronizada de 30 minutos, com alerta visual tático nos últimos 5 minutos.
 *   **Métricas e Avaliação:** Cálculo automático da nota (0 a 10) ao término da prova, com relatórios de acertos e erros.
 *   **Padrão Visual:** Interface baseada em Dark Mode e Glassmorphism, otimizada para legibilidade e ergonomia em dispositivos móveis.
@@ -30,13 +30,17 @@ Aplicativo web progressivo (PWA) desenvolvido para treinamento e aplicação de 
 
 *   `index.html`: Estrutura principal da interface.
 *   `style.css`: Regras de estilização e padrão visual.
-*   `app.js`: Motor lógico do aplicativo (timer, controle de questões, pontuação).
-*   `simulados.json`: Banco de dados das questões e provas.
+*   `app.js`: Motor lógico do aplicativo (timer, controle de questões, pontuação, busca/paginação de simulados).
+*   `simulados/`: Banco de dados das provas — um arquivo JSON por simulado, listados em `simulados/manifest.json`.
 *   `manifest.json`: Arquivo de configuração para instalação do PWA.
 *   `sw.js`: Service Worker com estratégia de Cache-First para funcionamento offline.
 
 ## Atualização de Banco de Dados (Simulados)
 
-Para inserir novas provas, edite o arquivo `simulados.json` adicionando um novo objeto ao array principal, respeitando a estrutura de ID, Título, Texto da questão, Opções (A a E) e o índice da Resposta Correta (0 a 4).
+Para inserir uma nova prova:
+
+1.  Crie um novo arquivo em `simulados/<id-do-simulado>.json`, respeitando a estrutura de ID, Título, Texto da questão, Opções (A a E) e o índice da Resposta Correta (0 a 4).
+2.  Adicione o nome do arquivo à lista em `simulados/manifest.json`.
+3.  Inclua o caminho do novo arquivo em `ASSETS_TO_CACHE` no `sw.js` (e incremente `CACHE_NAME`) para que ele fique disponível offline.
 
 
