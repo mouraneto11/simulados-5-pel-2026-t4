@@ -89,6 +89,12 @@ body {
     margin: 0;
 }
 
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .timer-container {
     display: flex;
     align-items: center;

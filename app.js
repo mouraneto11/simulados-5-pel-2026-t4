@@ -29,6 +29,7 @@ const finalScoreText = document.getElementById('finalScoreText');
 const correctCountEl = document.getElementById('correctCount');
 const incorrectCountEl = document.getElementById('incorrectCount');
 
+const homeBtn = document.getElementById('homeBtn');
 const simuladoTitle = document.getElementById('simuladoTitle');
 const simuladoSearch = document.getElementById('simuladoSearch');
 const simuladoList = document.getElementById('simuladoList');
@@ -64,10 +65,11 @@ async function init() {
         if (allSimulados && allSimulados.length > 0) {
             renderSimuladoList();
 
-            // Link único: ?simulado=<id> pré-seleciona o simulado ao abrir a página
+            // Link único: ?simulado=<id> abre direto nas questões do simulado
             const idFromUrl = new URLSearchParams(window.location.search).get('simulado');
             if (idFromUrl && allSimulados.some(sim => sim.id === idFromUrl)) {
                 selectSimulado(idFromUrl, { updateUrl: false });
+                startQuiz();
             }
         } else {
             simuladoList.innerHTML = '<div class="simulado-list-empty">Nenhum simulado encontrado.</div>';
@@ -220,7 +222,8 @@ startBtn.addEventListener('click', startQuiz);
 prevBtn.addEventListener('click', showPreviousQuestion);
 nextBtn.addEventListener('click', showNextQuestion);
 finishBtn.addEventListener('click', finishQuiz);
-restartBtn.addEventListener('click', resetQuiz);
+restartBtn.addEventListener('click', goToStart);
+homeBtn.addEventListener('click', goToStart);
 
 // Lógica do Quiz
 function startQuiz() {
@@ -233,9 +236,40 @@ function startQuiz() {
     
     quizScreen.classList.remove('hidden-screen');
     quizScreen.classList.add('active-screen');
-    
+
+    homeBtn.classList.remove('hidden');
+
     startTimer();
     renderQuestion();
+}
+
+function goToStart() {
+    const isMidQuiz = quizScreen.classList.contains('active-screen');
+    if (isMidQuiz && !window.confirm('Tem certeza que deseja sair? Seu progresso nesta prova será perdido.')) {
+        return;
+    }
+
+    clearInterval(timerInterval);
+    timerContainer.classList.remove('timer-warning');
+
+    quizScreen.classList.remove('active-screen');
+    quizScreen.classList.add('hidden-screen');
+
+    resultScreen.classList.remove('active-screen');
+    resultScreen.classList.add('hidden-screen');
+
+    startScreen.classList.remove('hidden-screen');
+    startScreen.classList.add('active-screen');
+
+    homeBtn.classList.add('hidden');
+
+    timerElement.textContent = '30:00';
+    userAnswers = [];
+    document.getElementById('summaryContainer').classList.add('hidden');
+    document.getElementById('summaryContainer').innerHTML = '';
+
+    // Remove o parâmetro da URL para não reabrir o simulado automaticamente ao recarregar
+    window.history.pushState({}, '', window.location.pathname);
 }
 
 function startTimer() {
@@ -404,19 +438,6 @@ function calculateScore() {
         scoreCircle.style.borderColor = 'var(--error)';
         scoreCircle.style.boxShadow = '0 0 20px rgba(239, 68, 68, 0.3)';
     }
-}
-
-function resetQuiz() {
-    resultScreen.classList.remove('active-screen');
-    resultScreen.classList.add('hidden-screen');
-    
-    startScreen.classList.remove('hidden-screen');
-    startScreen.classList.add('active-screen');
-    
-    timerElement.textContent = "30:00";
-    userAnswers = [];
-    document.getElementById('summaryContainer').classList.add('hidden');
-    document.getElementById('summaryContainer').innerHTML = '';
 }
 
 // Inicia a aplicação

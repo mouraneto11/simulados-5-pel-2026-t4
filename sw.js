@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cfsd-simulados-v6';
+const CACHE_NAME = 'cfsd-simulados-v7';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
