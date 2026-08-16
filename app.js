@@ -37,12 +37,14 @@ const simuladoPagination = document.getElementById('simuladoPagination');
 const simuladoPrevPage = document.getElementById('simuladoPrevPage');
 const simuladoNextPage = document.getElementById('simuladoNextPage');
 const simuladoPageInfo = document.getElementById('simuladoPageInfo');
+const printContent = document.getElementById('printContent');
 
 let allSimulados = [];
 let selectedSimuladoId = null;
 let simuladoSearchQuery = '';
 let simuladoCurrentPage = 1;
 const SIMULADOS_PER_PAGE = 5;
+const QUESTIONS_PER_PRINT_CARD = 4; // ajustar após checagem visual no print preview
 
 // Inicialização
 async function init() {
@@ -89,6 +91,14 @@ function normalizeText(text) {
         .replace(/[̀-ͯ]/g, '');
 }
 
+function truncateText(text, maxLength = 90) {
+    if (text.length <= maxLength) return text;
+    const cut = text.slice(0, maxLength);
+    const lastSpace = cut.lastIndexOf(' ');
+    const safeCut = lastSpace > maxLength * 0.4 ? cut.slice(0, lastSpace) : cut;
+    return safeCut.trim() + '…';
+}
+
 function getFilteredSimulados() {
     if (!simuladoSearchQuery) return allSimulados;
     const query = normalizeText(simuladoSearchQuery);
@@ -126,6 +136,9 @@ function renderSimuladoList() {
                     <span class="simulado-item-meta">${sim.questions.length} questões</span>
                 </div>
                 <div class="simulado-item-actions">
+                    <button type="button" class="icon-btn print-summary-btn" data-id="${sim.id}" title="Imprimir gabarito de bolso">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                    </button>
                     <button type="button" class="icon-btn copy-link-btn" data-id="${sim.id}" title="Copiar link deste simulado">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
                     </button>
@@ -144,6 +157,13 @@ function renderSimuladoList() {
         });
     });
 
+    simuladoList.querySelectorAll('.print-summary-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            printSimuladoSummary(btn.dataset.id);
+        });
+    });
+
     // Paginação
     if (filtered.length > SIMULADOS_PER_PAGE) {
         simuladoPagination.classList.remove('hidden');
@@ -153,6 +173,42 @@ function renderSimuladoList() {
     } else {
         simuladoPagination.classList.add('hidden');
     }
+}
+
+function buildPrintCardsHtml(simulado) {
+    const cards = [];
+    for (let i = 0; i < simulado.questions.length; i += QUESTIONS_PER_PRINT_CARD) {
+        const group = simulado.questions.slice(i, i + QUESTIONS_PER_PRINT_CARD);
+        const items = group.map((q, idx) => {
+            const num = i + idx + 1;
+            const truncated = truncateText(q.text, 90);
+            const answer = q.options[q.correctAnswer];
+            return `
+                <div class="print-card-item">
+                    <p class="print-card-q"><span class="print-q-num">${num}.</span> ${truncated}</p>
+                    <p class="print-card-a"><strong>R:</strong> ${answer}</p>
+                </div>`;
+        }).join('');
+        cards.push(`<div class="print-card">${items}</div>`);
+    }
+    return cards.join('');
+}
+
+function buildPrintHtml(simulado) {
+    return `
+        <div class="print-header">
+            <h1>${simulado.title}</h1>
+            <span>${simulado.questions.length} questões — Gabarito de bolso</span>
+        </div>
+        <div class="print-cards">${buildPrintCardsHtml(simulado)}</div>
+    `;
+}
+
+function printSimuladoSummary(id) {
+    const simulado = allSimulados.find(sim => sim.id === id);
+    if (!simulado) return;
+    printContent.innerHTML = buildPrintHtml(simulado);
+    window.print();
 }
 
 async function copySimuladoLink(id, btn) {

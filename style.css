@@ -347,6 +347,7 @@ body {
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    gap: 0.4rem;
 }
 
 .icon-btn {
@@ -604,4 +605,92 @@ body {
 
 .summary-a.correct-text {
     color: #86efac;
+}
+
+/* Gabarito de bolso (impressão) */
+#printScreen {
+    display: none;
+}
+
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 1cm;
+    }
+
+    body {
+        background: #fff;
+    }
+
+    .app-header,
+    .app-main {
+        display: none !important;
+    }
+
+    #printScreen {
+        display: block !important;
+    }
+
+    #printScreen,
+    #printScreen * {
+        color: #111;
+        box-sizing: border-box;
+    }
+
+    .print-header {
+        margin-bottom: 0.4cm;
+        text-align: center;
+    }
+
+    .print-header h1 {
+        font-family: var(--font-heading);
+        font-size: 12pt;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    .print-header span {
+        font-size: 8pt;
+        color: #555;
+    }
+
+    .print-cards {
+        column-count: 2;
+        column-gap: 0.6cm;
+        column-fill: auto;
+    }
+
+    .print-card {
+        border: 1.5px dashed #666;
+        border-radius: 3px;
+        padding: 0.25cm 0.35cm;
+        margin: 0 0 0.5cm;
+        min-height: 5cm;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+
+    .print-card-item + .print-card-item {
+        margin-top: 0.15cm;
+        padding-top: 0.15cm;
+        border-top: 1px dotted #ccc;
+    }
+
+    .print-card-q {
+        font-size: 7.5pt;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+
+    .print-q-num {
+        font-weight: 700;
+    }
+
+    .print-card-a {
+        font-size: 7pt;
+        color: #333;
+        line-height: 1.2;
+        margin-top: 0.08cm;
+    }
 }

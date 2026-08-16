@@ -8,6 +8,7 @@ Aplicativo web progressivo (PWA) desenvolvido para treinamento e aplicação de 
 *   **Múltiplos Simulados:** Cada prova vive em seu próprio arquivo JSON dentro de `simulados/`, com busca e paginação para localizar rapidamente o simulado desejado, e um link único e compartilhável por simulado (`?simulado=<id>`).
 *   **Cronômetro Operacional:** Contagem regressiva padronizada de 30 minutos, com alerta visual tático nos últimos 5 minutos.
 *   **Métricas e Avaliação:** Cálculo automático da nota (0 a 10) ao término da prova, com relatórios de acertos e erros.
+*   **Gabarito de Bolso (Impressão):** Cada simulado pode ser impresso como uma folha A4 com cartõezinhos de corte contendo pergunta resumida + resposta certa, para estudo rápido durante intervalos.
 *   **Padrão Visual:** Interface baseada em Dark Mode e Glassmorphism, otimizada para legibilidade e ergonomia em dispositivos móveis.
 
 ## Tecnologias Utilizadas
